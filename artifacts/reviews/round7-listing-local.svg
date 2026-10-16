@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080">
+<defs>
+      <pattern id="wood" width="240.0" height="54.0" patternUnits="userSpaceOnUse">
+        <path d="M0 0H240.0V18.0H0Z" fill="#80582f" opacity=".075"/>
+        <path d="M0 36.0H240.0V54.0H0Z" fill="#fff9e9" opacity=".20"/>
+        <path d="M0 0H240.0M0 18.0H240.0M0 36.0H240.0M72.0 0V18.0M162.0 18.0V36.0M28.000000000000004 36.0V54.0" fill="none" stroke="#705533" stroke-opacity=".23" stroke-width=".65"/>
+        <path d="M4.0 7.000000000000001Q60.0 3.5000000000000004 130.0 8.0T236.0 6.0M8.0 28.999999999999996Q78.0 23.0 150.0 28.000000000000004T229.99999999999997 27.0M12.0 46.0Q90.0 42.0 170.0 47.0T234.0 45.0" fill="none" stroke="#86643e" stroke-opacity=".16" stroke-width=".55"/>
+      </pattern>
+      <pattern id="tile" width="45.0" height="45.0" patternUnits="userSpaceOnUse"><rect width="45.0" height="45.0" fill="none" stroke="#fafbf8" stroke-opacity=".8" stroke-width="1.3"/><path d="M0 1H45.0" stroke="#77867e" opacity=".18"/></pattern>
+      <pattern id="weave" width="3" height="3" patternUnits="userSpaceOnUse"><path d="M0 .5H3M.5 0V3" stroke="#ffffff" stroke-opacity=".18" stroke-width=".45"/></pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="1.2" dy="2.2" stdDeviation="1.8" flood-color="#2c322b" flood-opacity=".24"/></filter>
+      <linearGradient id="linen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fdfbf5"/><stop offset=".65" stop-color="#eee9df"/><stop offset="1" stop-color="#d8d1c3"/></linearGradient>
+      <linearGradient id="ceramic" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffefa"/><stop offset=".55" stop-color="#f1f3f0"/><stop offset="1" stop-color="#c7d3ce"/></linearGradient>
+    </defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="60" y="51" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#4c6e5d">ROOMPLAN / RESIDENCES</text>
+<text x="60" y="94" font-family="Arial,sans-serif" font-size="29" font-weight="600" fill="#253b32">Квартира · Тёплый минимализм</text>
+<text x="60" y="124" font-family="Arial,sans-serif" font-size="14" fill="#738178">65.0 м²  ·  Высота 2.80 м  ·  План с расстановкой мебели</text>
+<path d="M60 146H1140" stroke="#d9dfd6"/>
+<polygon points="100,190 680.0,190 680.0,840.0 100,840.0" fill="#e9dfca"/>
+<polygon points="100,190 680.0,190 680.0,840.0 100,840.0" fill="url(#wood)"/>
+<polygon points="680.0,190 1100,190 1100,515.0 680.0,515.0" fill="#e8d9c8"/>
+<polygon points="680.0,190 1100,190 1100,515.0 680.0,515.0" fill="url(#wood)"/>
+<polygon points="680.0,515.0 870.0,515.0 870.0,840.0 680.0,840.0" fill="#ded7ca"/>
+<polygon points="680.0,515.0 870.0,515.0 870.0,840.0 680.0,840.0" fill="url(#wood)"/>
+<polygon points="870.0,515.0 1100,515.0 1100,840.0 870.0,840.0" fill="#e0e5df"/>
+<polygon points="870.0,515.0 1100,515.0 1100,840.0 870.0,840.0" fill="url(#tile)"/>
+<defs><linearGradient id="surface-0" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ddd5c4"/><stop offset=".48" stop-color="#d5cbb5"/><stop offset="1" stop-color="#aaa291"/></linearGradient></defs>
+<g data-kind="rug" transform="translate(340.0 610.0) rotate(0.00)" stroke="#918a7b" stroke-width=".8" filter="url(#shadow)"><title>Ковер Sand</title>
+<rect x="-120.00" y="-90.00" width="240.00" height="180.00" rx="1" fill="#d5cbb5" stroke="#b8ae97"/>
+<rect x="-115.00" y="-85.00" width="230.00" height="170.00" rx="1" fill="none" stroke="#ece7d9"/>
+<rect x="-118.00" y="-88.00" width="236.00" height="176.00" rx="1" fill="url(#weave)" stroke="none"/>
+<path d="M-110 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-102 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-94 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-86 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-78 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-70 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-62 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-54 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-46 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-38 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-30 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-22 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-14 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-6 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M2 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M10 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M18 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M26 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M34 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M42 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M50 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M58 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M66 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M74 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M82 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M90 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M98 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M106 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M114 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+</g>
+<defs><linearGradient id="surface-1" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c5a484"/><stop offset=".48" stop-color="#b78d65"/><stop offset="1" stop-color="#927151"/></linearGradient></defs>
+<g data-kind="coffeeTable" transform="translate(335.0 600.0) rotate(0.00)" stroke="#7c6045" stroke-width=".8" filter="url(#shadow)"><title>Стол Pebble</title>
+<rect x="-55.00" y="-30.00" width="110.00" height="60.00" rx="12.0" fill="url(#surface-1)"/>
+<path d="M-41.80 -13.20Q0 -15.20 41.80 -13.20" stroke="#7c6045" stroke-width=".5" opacity=".25" fill="none"/>
+<path d="M-41.80 -1.20Q0 -3.20 41.80 -1.20" stroke="#7c6045" stroke-width=".5" opacity=".25" fill="none"/>
+<path d="M-41.80 12.00Q0 10.00 41.80 12.00" stroke="#7c6045" stroke-width=".5" opacity=".25" fill="none"/>
+<ellipse cx="-24.20" cy="-7.20" rx="9.90" ry="9.90" fill="#f6f3e8"/>
+<ellipse cx="22.00" cy="4.80" rx="11.00" ry="11.00" fill="#7b936f"/>
+</g>
+<defs><linearGradient id="surface-2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c5af95"/><stop offset=".48" stop-color="#b69b7a"/><stop offset="1" stop-color="#927c62"/></linearGradient></defs>
+<g data-kind="cabinet" transform="translate(642.0 730.0) rotate(-90.00)" stroke="#7c6953" stroke-width=".8" filter="url(#shadow)"><title>Тумба Linear</title>
+<rect x="-90.00" y="-20.00" width="180.00" height="40.00" rx="2" fill="url(#surface-2)"/>
+<path d="M0 -20.0V20.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<defs><linearGradient id="surface-3" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c5af95"/><stop offset=".48" stop-color="#b69b7a"/><stop offset="1" stop-color="#927c62"/></linearGradient></defs>
+<g data-kind="cabinet" transform="translate(445.0 230.0) rotate(0.00)" stroke="#7c6953" stroke-width=".8" filter="url(#shadow)"><title>Тумба Linear</title>
+<rect x="-90.00" y="-20.00" width="180.00" height="40.00" rx="2" fill="url(#surface-3)"/>
+<path d="M0 -20.0V20.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<defs><linearGradient id="surface-4" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dfd9cc"/><stop offset=".48" stop-color="#d7cfbf"/><stop offset="1" stop-color="#aca699"/></linearGradient></defs>
+<g data-kind="cabinet" transform="translate(780.0 255.0) rotate(0.00)" stroke="#928d82" stroke-width=".8" filter="url(#shadow)"><title>Тумба Cube</title>
+<rect x="-30.00" y="-22.50" width="60.00" height="45.00" rx="2" fill="url(#surface-4)"/>
+<path d="M0 -22.5V22.5" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<defs><linearGradient id="surface-5" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dfd9cc"/><stop offset=".48" stop-color="#d7cfbf"/><stop offset="1" stop-color="#aca699"/></linearGradient></defs>
+<g data-kind="cabinet" transform="translate(1020.0 255.0) rotate(0.00)" stroke="#928d82" stroke-width=".8" filter="url(#shadow)"><title>Тумба Cube</title>
+<rect x="-30.00" y="-22.50" width="60.00" height="45.00" rx="2" fill="url(#surface-5)"/>
+<path d="M0 -22.5V22.5" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<defs><linearGradient id="surface-6" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eae5dd"/><stop offset=".48" stop-color="#e5dfd4"/><stop offset="1" stop-color="#b7b2aa"/></linearGradient></defs>
+<g data-kind="bed" transform="translate(900 320.0) rotate(0.00)" stroke="#9c9890" stroke-width=".8" filter="url(#shadow)"><title>Кровать Soft 160</title>
+<rect x="-85.00" y="-107.50" width="170.00" height="215.00" rx="5" fill="#b7b2aa"/>
+<rect x="-81.00" y="-100.50" width="162.00" height="204.00" rx="4" fill="url(#linen)"/>
+<rect x="-75.00" y="-94.50" width="66.30" height="40.85" rx="5" fill="#fffdf5"/>
+<rect x="5.10" y="-94.50" width="66.30" height="40.85" rx="5" fill="#fffdf5"/>
+<rect x="-80.00" y="-25.80" width="160.00" height="111.80" rx="3" fill="url(#surface-6)"/>
+<rect x="-78.00" y="-21.50" width="156.00" height="103.20" rx="2" fill="url(#weave)" stroke="none"/>
+<rect x="-80.00" y="-30.10" width="160.00" height="20.43" rx="2" fill="url(#linen)"/>
+<path d="M-64.60 -8.60q-3 30.10 0 83.85" fill="none" stroke="#eae5dd" stroke-width="1.3" opacity=".75"/>
+<path d="M-34.00 -8.60q-3 30.10 0 83.85" fill="none" stroke="#eae5dd" stroke-width="1.3" opacity=".75"/>
+<path d="M28.90 -8.60q-3 30.10 0 83.85" fill="none" stroke="#eae5dd" stroke-width="1.3" opacity=".75"/>
+<path d="M61.20 -8.60q-3 30.10 0 83.85" fill="none" stroke="#eae5dd" stroke-width="1.3" opacity=".75"/>
+</g>
+<defs><linearGradient id="surface-7" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f5f4ed"/><stop offset=".48" stop-color="#f3f1e9"/><stop offset="1" stop-color="#c2c1ba"/></linearGradient></defs>
+<g data-kind="bathtub" transform="translate(1040.0 625.0) rotate(0.00)" stroke="#a5a49e" stroke-width=".8" filter="url(#shadow)"><title>Ванна Oval</title>
+<rect x="-40.00" y="-85.00" width="80.00" height="170.00" rx="24.0" fill="#f8f7ee"/>
+<rect x="-33.00" y="-76.00" width="66.00" height="152.00" rx="24.0" fill="url(#ceramic)"/>
+<ellipse cx="0.00" cy="42.50" rx="2.00" ry="2.00" fill="#8a9d98"/>
+</g>
+<defs><linearGradient id="surface-8" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5b591"/><stop offset=".48" stop-color="#cba276"/><stop offset="1" stop-color="#a2825e"/></linearGradient></defs>
+<g data-kind="diningTable" transform="translate(350.0 380.0) rotate(0.00)" stroke="#8a6e50" stroke-width=".8" filter="url(#shadow)"><title>Стол Arc</title>
+<rect x="-70.00" y="-42.50" width="140.00" height="85.00" rx="17.0" fill="url(#surface-8)"/>
+<path d="M-53.20 -18.70Q0 -20.70 53.20 -18.70" stroke="#8a6e50" stroke-width=".5" opacity=".25" fill="none"/>
+<path d="M-53.20 -1.70Q0 -3.70 53.20 -1.70" stroke="#8a6e50" stroke-width=".5" opacity=".25" fill="none"/>
+<path d="M-53.20 17.00Q0 15.00 53.20 17.00" stroke="#8a6e50" stroke-width=".5" opacity=".25" fill="none"/>
+<ellipse cx="-30.80" cy="-10.20" rx="12.60" ry="12.60" fill="#f6f3e8"/>
+<ellipse cx="28.00" cy="6.80" rx="14.00" ry="14.00" fill="#7b936f"/>
+</g>
+<defs><linearGradient id="surface-9" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f9f9f5"/><stop offset=".48" stop-color="#f8f7f2"/><stop offset="1" stop-color="#c6c6c2"/></linearGradient></defs>
+<g data-kind="toilet" transform="translate(920.0 575.0) rotate(0.00)" stroke="#a9a8a5" stroke-width=".8" filter="url(#shadow)"><title>Унитаз Compact</title>
+<rect x="-20.00" y="-32.50" width="40.00" height="16.25" rx="4" fill="#f8f7f1"/>
+<ellipse cx="0.00" cy="6.50" rx="19.20" ry="24.05" fill="#fcfbf7"/>
+<ellipse cx="0.00" cy="6.50" rx="11.60" ry="14.95" fill="#dfe6e2"/>
+</g>
+<defs><linearGradient id="surface-10" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#cdaf93"/><stop offset=".48" stop-color="#c19b78"/><stop offset="1" stop-color="#9a7c60"/></linearGradient></defs>
+<g data-kind="armchair" transform="translate(380.0 715.0) rotate(-180.00)" stroke="#836952" stroke-width=".8" filter="url(#shadow)"><title>Кресло Shell</title>
+<rect x="-40.00" y="-40.00" width="80.00" height="80.00" rx="8" fill="#9a7c60"/>
+<rect x="-33.00" y="-35.00" width="66.00" height="20.80" rx="5" fill="url(#surface-10)"/>
+<rect x="-30.00" y="-12.80" width="56.00" height="43.20" rx="5" fill="url(#surface-10)"/>
+<rect x="-28.00" y="-10.80" width="52.00" height="39.20" rx="4" fill="url(#weave)" stroke="#cdaf93"/>
+<rect x="-37.00" y="-32.00" width="8.00" height="67.00" rx="4" fill="url(#surface-10)"/>
+<rect x="29.00" y="-32.00" width="8.00" height="67.00" rx="4" fill="url(#surface-10)"/>
+</g>
+<defs><linearGradient id="surface-11" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c7af93"/><stop offset=".48" stop-color="#b99b78"/><stop offset="1" stop-color="#947c60"/></linearGradient></defs>
+<g data-kind="diningChair" transform="translate(255.0 380.0) rotate(-90.00)" stroke="#7e6952" stroke-width=".8" filter="url(#shadow)"><title>Стул Wish</title>
+<rect x="-21.00" y="-23.00" width="42.00" height="46.00" rx="6" fill="#947c60"/>
+<rect x="-20.00" y="-23.00" width="40.00" height="9.00" rx="3" fill="url(#surface-11)"/>
+<rect x="-19.00" y="-10.00" width="38.00" height="30.00" rx="4" fill="url(#surface-11)"/>
+</g>
+<defs><linearGradient id="surface-12" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c7af93"/><stop offset=".48" stop-color="#b99b78"/><stop offset="1" stop-color="#947c60"/></linearGradient></defs>
+<g data-kind="diningChair" transform="translate(445.0 380.0) rotate(90.00)" stroke="#7e6952" stroke-width=".8" filter="url(#shadow)"><title>Стул Wish</title>
+<rect x="-21.00" y="-23.00" width="42.00" height="46.00" rx="6" fill="#947c60"/>
+<rect x="-20.00" y="-23.00" width="40.00" height="9.00" rx="3" fill="url(#surface-12)"/>
+<rect x="-19.00" y="-10.00" width="38.00" height="30.00" rx="4" fill="url(#surface-12)"/>
+</g>
+<defs><linearGradient id="surface-13" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c7af93"/><stop offset=".48" stop-color="#b99b78"/><stop offset="1" stop-color="#947c60"/></linearGradient></defs>
+<g data-kind="diningChair" transform="translate(350.0 450.0) rotate(0.00)" stroke="#7e6952" stroke-width=".8" filter="url(#shadow)"><title>Стул Wish</title>
+<rect x="-21.00" y="-23.00" width="42.00" height="46.00" rx="6" fill="#947c60"/>
+<rect x="-20.00" y="-23.00" width="40.00" height="9.00" rx="3" fill="url(#surface-13)"/>
+<rect x="-19.00" y="-10.00" width="38.00" height="30.00" rx="4" fill="url(#surface-13)"/>
+</g>
+<defs><linearGradient id="surface-14" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ddd1be"/><stop offset=".48" stop-color="#d4c6ae"/><stop offset="1" stop-color="#aa9e8b"/></linearGradient></defs>
+<g data-kind="sofa" transform="translate(200 605.0) rotate(-90.00)" stroke="#908776" stroke-width=".8" filter="url(#shadow)"><title>Диван Linen</title>
+<rect x="-112.50" y="-45.00" width="225.00" height="90.00" rx="8" fill="#aa9e8b"/>
+<rect x="-105.50" y="-40.00" width="211.00" height="23.40" rx="5" fill="url(#surface-14)"/>
+<rect x="-102.50" y="-14.40" width="67.00" height="48.60" rx="5" fill="url(#surface-14)"/>
+<rect x="-100.50" y="-12.40" width="63.00" height="44.60" rx="4" fill="url(#weave)" stroke="#ddd1be"/>
+<rect x="-34.17" y="-14.40" width="67.00" height="48.60" rx="5" fill="url(#surface-14)"/>
+<rect x="-32.17" y="-12.40" width="63.00" height="44.60" rx="4" fill="url(#weave)" stroke="#ddd1be"/>
+<rect x="34.17" y="-14.40" width="67.00" height="48.60" rx="5" fill="url(#surface-14)"/>
+<rect x="36.17" y="-12.40" width="63.00" height="44.60" rx="4" fill="url(#weave)" stroke="#ddd1be"/>
+<rect x="-109.50" y="-37.00" width="8.00" height="77.00" rx="4" fill="url(#surface-14)"/>
+<rect x="101.50" y="-37.00" width="8.00" height="77.00" rx="4" fill="url(#surface-14)"/>
+</g>
+<defs><linearGradient id="surface-15" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f5f5f0"/><stop offset=".48" stop-color="#f3f2ec"/><stop offset="1" stop-color="#c2c2bd"/></linearGradient></defs>
+<g data-kind="sink" transform="translate(955.0 802.0) rotate(-180.00)" stroke="#a5a5a0" stroke-width=".8" filter="url(#shadow)"><title>Раковина Bath</title>
+<rect x="-32.50" y="-25.00" width="65.00" height="50.00" rx="2" fill="url(#surface-15)"/>
+<rect x="-20.80" y="-16.50" width="41.60" height="33.00" rx="8" fill="url(#ceramic)"/>
+<ellipse cx="0.00" cy="0.00" rx="2.00" ry="2.00" fill="#7a8985"/>
+<path d="M0 -23.0v10" stroke="#798a87" stroke-width="4"/>
+</g>
+<defs><linearGradient id="surface-16" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#deddd6"/><stop offset=".48" stop-color="#d6d4cc"/><stop offset="1" stop-color="#abaaa3"/></linearGradient></defs>
+<g data-kind="sink" transform="translate(240.0 230.0) rotate(0.00)" stroke="#92908b" stroke-width=".8" filter="url(#shadow)"><title>Мойка Kitchen</title>
+<rect x="-40.00" y="-30.00" width="80.00" height="60.00" rx="2" fill="url(#surface-16)"/>
+<rect x="-25.60" y="-19.80" width="51.20" height="39.60" rx="8" fill="url(#ceramic)"/>
+<ellipse cx="0.00" cy="0.00" rx="2.00" ry="2.00" fill="#7a8985"/>
+<path d="M0 -28.0v10" stroke="#798a87" stroke-width="4"/>
+</g>
+<defs><linearGradient id="surface-17" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ddd9d1"/><stop offset=".48" stop-color="#d4d0c5"/><stop offset="1" stop-color="#aaa69e"/></linearGradient></defs>
+<g data-kind="stove" transform="translate(315.0 230.0) rotate(0.00)" stroke="#908d86" stroke-width=".8" filter="url(#shadow)"><title>Модуль с плитой</title>
+<rect x="-30.00" y="-30.00" width="60.00" height="60.00" rx="2" fill="#d4d0c5"/>
+<rect x="-25.00" y="-25.00" width="50.00" height="50.00" rx="2" fill="#414c49"/>
+<ellipse cx="-13.80" cy="-13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+<ellipse cx="-13.80" cy="13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+<ellipse cx="13.80" cy="-13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+<ellipse cx="13.80" cy="13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+</g>
+<defs><linearGradient id="surface-18" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8aa381"/><stop offset=".48" stop-color="#6d8c62"/><stop offset="1" stop-color="#57704e"/></linearGradient></defs>
+<g data-kind="plant" transform="translate(730.0 455.0) rotate(0.00)" stroke="#4a5f43" stroke-width=".8" filter="url(#shadow)"><title>Монстера</title>
+<ellipse cx="0.00" cy="0.00" rx="22.40" ry="22.40" fill="#c4b39b"/>
+<g transform="rotate(0)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#6d8c62" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+<g transform="rotate(45)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#8aa381" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+<g transform="rotate(90)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#6d8c62" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+<g transform="rotate(135)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#8aa381" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+<g transform="rotate(180)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#6d8c62" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+<g transform="rotate(225)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#8aa381" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+<g transform="rotate(270)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#6d8c62" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+<g transform="rotate(315)"><path d="M0 0Q-26.60 -18.90 0 -33.60Q17.50 -11.90 0 0" fill="#8aa381" stroke="#57704e"/><path d="M0 0L0 -27.30" stroke="#57704e" stroke-width=".6"/></g>
+</g>
+<defs><linearGradient id="surface-19" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#769c84"/><stop offset=".48" stop-color="#548365"/><stop offset="1" stop-color="#436951"/></linearGradient></defs>
+<g data-kind="plant" transform="translate(155.0 770.0) rotate(0.00)" stroke="#395945" stroke-width=".8" filter="url(#shadow)"><title>Фикус</title>
+<ellipse cx="0.00" cy="0.00" rx="17.60" ry="17.60" fill="#c4b39b"/>
+<g transform="rotate(0)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#548365" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+<g transform="rotate(45)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#769c84" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+<g transform="rotate(90)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#548365" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+<g transform="rotate(135)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#769c84" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+<g transform="rotate(180)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#548365" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+<g transform="rotate(225)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#769c84" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+<g transform="rotate(270)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#548365" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+<g transform="rotate(315)"><path d="M0 0Q-20.90 -14.85 0 -26.40Q13.75 -9.35 0 0" fill="#769c84" stroke="#436951"/><path d="M0 0L0 -21.45" stroke="#436951" stroke-width=".6"/></g>
+</g>
+<defs><linearGradient id="surface-20" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#cfd4d2"/><stop offset=".48" stop-color="#c3c9c7"/><stop offset="1" stop-color="#9ca19f"/></linearGradient></defs>
+<g data-kind="fridge" transform="translate(155.0 240.0) rotate(0.00)" stroke="#858987" stroke-width=".8" filter="url(#shadow)"><title>Холодильник Tall</title>
+<rect x="-32.50" y="-32.50" width="65.00" height="65.00" rx="2" fill="url(#surface-20)"/>
+<rect x="-29.50" y="-29.50" width="59.00" height="57.00" rx="1" fill="none" stroke="#cfd4d2"/>
+<path d="M-28.5 18.200000000000003V27.95" stroke="#858987" stroke-width="2"/>
+</g>
+<defs><linearGradient id="surface-21" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#858b8d"/><stop offset=".48" stop-color="#666e70"/><stop offset="1" stop-color="#52585a"/></linearGradient></defs>
+<g data-kind="wardrobe" transform="translate(720.0 720.0) rotate(-90.00)" stroke="#454b4c" stroke-width=".8" filter="url(#shadow)"><title>Шкаф Graphite</title>
+<rect x="-60.00" y="-30.00" width="120.00" height="60.00" rx="2" fill="url(#surface-21)"/>
+<path d="M0 -30.0V30.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<defs><linearGradient id="surface-22" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ece5d9"/><stop offset=".48" stop-color="#e7dfcf"/><stop offset="1" stop-color="#b9b2a6"/></linearGradient></defs>
+<g data-kind="wardrobe" transform="translate(1065.0 370.0) rotate(-90.00)" stroke="#9d988d" stroke-width=".8" filter="url(#shadow)"><title>Шкаф Birch</title>
+<rect x="-90.00" y="-30.00" width="180.00" height="60.00" rx="2" fill="url(#surface-22)"/>
+<path d="M0 -30.0V30.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<defs><linearGradient id="surface-23" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#535d61"/><stop offset=".48" stop-color="#283539"/><stop offset="1" stop-color="#202a2e"/></linearGradient></defs>
+<g data-kind="tv" transform="translate(642.0 730.0) rotate(-90.00)" stroke="#1b2427" stroke-width=".8" filter="url(#shadow)"><title>Экран 55</title>
+<rect x="-61.50" y="-5.00" width="123.00" height="10.00" rx="1" fill="#253632"/>
+</g>
+<path d="M100 190L1100 190" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M1100 190L1100 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M1100 840.0L700 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M600 840.0L100 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M100 840.0L100 190" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 190L680.0 545.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 640.0L680.0 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 515.0L745.0 515.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M840.0 515.0L1100 515.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M870.0 515.0L870.0 655.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M870.0 745.0L870.0 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 545.0L585.0 545.0 M585.0 545.0A95.00000000000001 95.00000000000001 0 0 0 680.0 640.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M745.0 515.0L745.0 610.0 M745.0 610.0A95.00000000000001 95.00000000000001 0 0 0 840.0 515.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M870.0 655.0L780.0 655.0 M780.0 655.0A89.99999999999994 89.99999999999994 0 0 0 870.0 745.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M600 840.0L600.0 940.0 M600.0 940.0A100.0 100.0 0 0 0 700 840.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M190.0 190L580.0 190" stroke="#eaf1ed" stroke-width="13.0"/><path d="M190.0 190L580.0 190" stroke="#8ca8a0" stroke-width="1.5"/>
+<path d="M760.0 190L1030.0 190" stroke="#eaf1ed" stroke-width="13.0"/><path d="M760.0 190L1030.0 190" stroke="#8ca8a0" stroke-width="1.5"/>
+<path d="M100 490L100 740.0" stroke="#eaf1ed" stroke-width="13.0"/><path d="M100 490L100 740.0" stroke="#8ca8a0" stroke-width="1.5"/>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="452.8" y="710.0" width="106.39999999999999" height="39" rx="5" fill="#ffffff" fill-opacity=".88"/><text x="506.0" y="726.0" font-size="12" font-weight="600" fill="#344d3f">Кухня-гостиная</text><text x="506.0" y="741.0" font-size="10" fill="#738071">37.7 м²</text></g>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="850.0" y="437.0" width="80" height="39" rx="5" fill="#ffffff" fill-opacity=".88"/><text x="890.0" y="453.0" font-size="12" font-weight="600" fill="#344d3f">Спальня</text><text x="890.0" y="468.0" font-size="10" fill="#738071">13.7 м²</text></g>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="773.0" y="762.0" width="80" height="39" rx="5" fill="#ffffff" fill-opacity=".88"/><text x="813.0" y="778.0" font-size="12" font-weight="600" fill="#344d3f">Прихожая</text><text x="813.0" y="793.0" font-size="10" fill="#738071">6.2 м²</text></g>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="1002.5" y="762.0" width="80" height="39" rx="5" fill="#ffffff" fill-opacity=".88"/><text x="1042.5" y="778.0" font-size="12" font-weight="600" fill="#344d3f">Ванная</text><text x="1042.5" y="793.0" font-size="10" fill="#738071">7.5 м²</text></g>
+<path d="M100 975.0H1100M100 969.0v12M1100 969.0v12" stroke="#8c9a8b" fill="none"/>
+<text x="600.0" y="994.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#5d7263">10.00 м</text>
+<path d="M60 1022.0h100.0" stroke="#476653" stroke-width="3"/><text x="60" y="1012.0" font-family="Arial,sans-serif" font-size="11" fill="#607664">1 метр</text>
+<text x="1140" y="1038.0" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#7b867b">Концепция интерьера · Размеры требуют проверки на объекте</text>
+</svg>

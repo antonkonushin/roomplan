@@ -1,0 +1,277 @@
+{
+  "time": "2026-10-16T12:59:53.514324",
+  "sourceAndExports": {
+    "roomplan/export.py": "cf0415773de9c26590486048bf010173cfff2506e995fb73e8ee13651e60a42c",
+    "web/app.js": "731c9568f6c788953cfcc03a07643dfe484aafb117fb60d744cbfb01a79288c2",
+    "web/scene.js": "ffee1295da429dc8f931598a8f3fbefae2cd81b9ddf01e6ad460e306f9b90cd3",
+    "web/index.html": "650f0abeb342c7360f0cecb143d4cc2df03f53fca537730113dc79dee47cf97f",
+    "web/style.css": "2764681b172ee56443be46920bc54afebd6f5aff7f344b3438469684c57d6bf2",
+    "tests/test_png_export.mjs": "46d88705ef56e69725d5d0a17a0d8c616b7bc26217db15138d2144ad968328c0",
+    "artifacts/reviews/round7-final-project.zip": "daa1dbd39eadf7e01fa56878843d2da1be3d399986f9f994ccf9d871b8dccfa6",
+    "artifacts/reviews/round7-final-listing.svg": "2e8af5e82ddb8a1c0d37986102bfba54faf46e235e42cb1743db60e541903ef4",
+    "artifacts/reviews/round7-hires-interior.png": "440fe5e52da9ccbe61d31dc20e9c901fe3a907af036d9f3cc573897614a90fdb",
+    "artifacts/reviews/round7-hires-dollhouse.png": "705a2ac038a3b1e009e6f1c679bf6b509a48d6ce9cbc59cda9fd3546f2ed0b31",
+    "artifacts/reviews/round7-hires-dollhouse-alt.png": "85af6298915e2145aa7ce47f6ab2976f53098dce33f1ea5f063dbd2f47616c27",
+    "artifacts/reviews/round7-hires-top.png": "b45b39dd103c07c7c4881e5ddbba8a2fad4e993da3c480f1f574b968f2e219ab"
+  },
+  "liveEvidenceLinks": [
+    {
+      "url": "/artifacts/reviews/acceptance-round7.md",
+      "status": 200,
+      "bytes": 16250,
+      "sha256": "67e47a00a2ced45a4132575800a92cdbc7410a3377ef0a3ac31551b46f92ad3d"
+    },
+    {
+      "url": "/artifacts/reviews/ordinary-cg-independent-round7.md",
+      "status": 200,
+      "bytes": 8334,
+      "sha256": "9c5f04213f6a2a2ecddf0ef0327582c0c187ab0ffbb4d91a51e2b8d6c49684f5"
+    },
+    {
+      "url": "/artifacts/reviews/round7-browser.md",
+      "status": 200,
+      "bytes": 3775,
+      "sha256": "f34710e8830d5b32b6c1bac20e724c8290c3055605b5f957130f53bae5c559b2"
+    },
+    {
+      "url": "/artifacts/reviews/round7-final-project.zip",
+      "status": 200,
+      "bytes": 2514,
+      "sha256": "daa1dbd39eadf7e01fa56878843d2da1be3d399986f9f994ccf9d871b8dccfa6"
+    },
+    {
+      "url": "/artifacts/reviews/round7-final-listing.svg",
+      "status": 200,
+      "bytes": 28311,
+      "sha256": "2e8af5e82ddb8a1c0d37986102bfba54faf46e235e42cb1743db60e541903ef4"
+    },
+    {
+      "url": "/artifacts/reviews/round7-hires-dollhouse.png",
+      "status": 200,
+      "bytes": 475602,
+      "sha256": "705a2ac038a3b1e009e6f1c679bf6b509a48d6ce9cbc59cda9fd3546f2ed0b31"
+    },
+    {
+      "url": "/artifacts/reviews/round7-hires-dollhouse-alt.png",
+      "status": 200,
+      "bytes": 555261,
+      "sha256": "85af6298915e2145aa7ce47f6ab2976f53098dce33f1ea5f063dbd2f47616c27"
+    },
+    {
+      "url": "/artifacts/reviews/round7-hires-interior.png",
+      "status": 200,
+      "bytes": 1224939,
+      "sha256": "440fe5e52da9ccbe61d31dc20e9c901fe3a907af036d9f3cc573897614a90fdb"
+    },
+    {
+      "url": "/artifacts/reviews/listing-independent-round7.md",
+      "status": 200,
+      "bytes": 8740,
+      "sha256": "d244e003245953402d3d38d0cf6770a7146c5adf12436835a32a89a640c274a1"
+    },
+    {
+      "url": "/docs/quality-bar.md",
+      "status": 200,
+      "bytes": 10011,
+      "sha256": "1315c504ec6a042ed38309e68c8571c6e060f8954c24eded541035256524b954"
+    },
+    {
+      "url": "/docs/acceptance.md",
+      "status": 200,
+      "bytes": 6751,
+      "sha256": "c9eba7a3c241921b351b875f0b2b6335f04ab4e33dbd91e36b8725157a327ca9"
+    },
+    {
+      "url": "/artifacts/reference/floorplanner-dollhouse-01.jpg",
+      "status": 200,
+      "bytes": 52123,
+      "sha256": "aeaf4c0ece18f8f14707929371e55bbb8d24a9d272542fa0cfef179d58eda91f"
+    },
+    {
+      "url": "/artifacts/reviews/backend-independent.md",
+      "status": 200,
+      "bytes": 5993,
+      "sha256": "449a886122c95b865a883f557ca1323a8b4f1961d0058f15a77e018fde079122"
+    },
+    {
+      "url": "/artifacts/reviews/round1-plan-import.jpg",
+      "status": 200,
+      "bytes": 138527,
+      "sha256": "76ec4fec407fb869caee5ca9d1c189b53862234c25763865892f0868cec96650"
+    },
+    {
+      "url": "/artifacts/reviews/round2-interior.png",
+      "status": 200,
+      "bytes": 1298231,
+      "sha256": "eaf8232010aa36564d65dd7d1d39b15348cd968ecceba3509bcd620486ae06f6"
+    },
+    {
+      "url": "/artifacts/reviews/round2-dollhouse.png",
+      "status": 200,
+      "bytes": 589015,
+      "sha256": "b8581027609cc44728d66cb915b7739dc353f6348df36de9cb2ed2a4dc4b24b0"
+    },
+    {
+      "url": "/artifacts/reviews/round2-listing.svg",
+      "status": 200,
+      "bytes": 18793,
+      "sha256": "d7e87de9ae8ca9284b2df3aacf229988002f99d97eec6b62935d9df58e233520"
+    },
+    {
+      "url": "/artifacts/reviews/round2-orbit.webm",
+      "status": 200,
+      "bytes": 47065,
+      "sha256": "a9a340a105fd9e6df9e337e2f9f7d4bc8aa3415d7e0bc4935b38fe40a9170739"
+    },
+    {
+      "url": "/artifacts/reviews/visual-round2.md",
+      "status": 200,
+      "bytes": 8760,
+      "sha256": "39e6ab874a3156c6817808f468bf5522d8cd78518c72d9479c00a47cfe08b3de"
+    },
+    {
+      "url": "/artifacts/reviews/round3-interior.png",
+      "status": 200,
+      "bytes": 1850993,
+      "sha256": "1551b2e8d1eca1db4cd4a6b4173974dce51d3470c022f7ca453759c7ffe55771"
+    },
+    {
+      "url": "/artifacts/reviews/interaction-round2.md",
+      "status": 200,
+      "bytes": 3534,
+      "sha256": "a289d80009b34f4c8a3ea44aa3a4e152d616fb2eeb906be4479f7f9d499e2f43"
+    },
+    {
+      "url": "/artifacts/reviews/backend-reaudit.md",
+      "status": 200,
+      "bytes": 2745,
+      "sha256": "23245eea29eab684d17b396c5caf49fbb2351dcfbfd8920485250450d8c3ba5e"
+    },
+    {
+      "url": "/artifacts/reviews/round3-orbit.webm",
+      "status": 200,
+      "bytes": 652144,
+      "sha256": "e0dcc63993d7d968bb593e6d66f23f2a0a8a5cff181626a299f279c8520f9602"
+    },
+    {
+      "url": "/artifacts/reviews/visual-round3.md",
+      "status": 200,
+      "bytes": 7307,
+      "sha256": "69cbfa650951dff494d64dbb1bc0fa3ee2bd210a66052eb27820116c10d4c605"
+    },
+    {
+      "url": "/artifacts/reviews/browser-checkpoint.md",
+      "status": 200,
+      "bytes": 2530,
+      "sha256": "7f522007f2cc99cfca7e8cfebc6f735f1f8bba1b7bcf3e4c1d28f9b2d3532883"
+    },
+    {
+      "url": "/artifacts/reviews/interaction-catalog-route.md",
+      "status": 200,
+      "bytes": 4480,
+      "sha256": "76017b9109271ca09a5b50f60dc3a9649d9bbeae5c1ee56975096d6f9b3b1cdc"
+    },
+    {
+      "url": "/artifacts/reviews/video-playback.html",
+      "status": 200,
+      "bytes": 1638,
+      "sha256": "25e828e3ebcf85f8213d1aaa128c3e0efeba225145b945d86362ecd5ed6febef"
+    },
+    {
+      "url": "/artifacts/reviews/interaction-run-handlers.md",
+      "status": 200,
+      "bytes": 2527,
+      "sha256": "01873c4cc06bcf6bed0d399a1fd0659f0dfafb1bd838b79e3837708780b25772"
+    },
+    {
+      "url": "/artifacts/reviews/round5-zip-roundtrip.json",
+      "status": 200,
+      "bytes": 426,
+      "sha256": "6e3fca5292c4fa08abd557f50eeae3e0fe4ba7f8dcdfb326a7bba214449a3c1b"
+    },
+    {
+      "url": "/artifacts/reviews/round5-second-plan.png",
+      "status": 200,
+      "bytes": 117331,
+      "sha256": "8bf593a50151fe069fc84fc8677cea97ad11716ae3c6fd9b94dea66a6bc2bbe7"
+    },
+    {
+      "url": "/artifacts/reviews/round5-invalid-image.png",
+      "status": 200,
+      "bytes": 82476,
+      "sha256": "ff142be6a2d701210fb115059be981898bfe169d7f386b69db367d3d88ce58a2"
+    },
+    {
+      "url": "/artifacts/reviews/backend-provider-independent.md",
+      "status": 200,
+      "bytes": 3570,
+      "sha256": "962e1049585754f21357882a964555d181aba5bad3e6f4675398e6f248632a6a"
+    },
+    {
+      "url": "/artifacts/reviews/round5-floor-drag.png",
+      "status": 200,
+      "bytes": 219097,
+      "sha256": "c97e0f6e2b81b1edebf0d150ca0236e0eac92cef305fa660c538b45fb6a91631"
+    },
+    {
+      "url": "/artifacts/reviews/round5-wall-drag.png",
+      "status": 200,
+      "bytes": 218326,
+      "sha256": "d84e25ba58951a78d4357d348f96c543e16d18bff18b7612c53b62b6c470de2d"
+    },
+    {
+      "url": "/artifacts/reviews/round5-edited-overview.webm",
+      "status": 200,
+      "bytes": 1339016,
+      "sha256": "1d98ba2fdd6021566f1e3971cc574bac8b2bc3632347345257cb55d23d04e01f"
+    },
+    {
+      "url": "/artifacts/reviews/round6-physical-preview.png",
+      "status": 200,
+      "bytes": 1309824,
+      "sha256": "54207a3ba10fd21377a7670e4431389ca0872dd2a0cb533e1ffdd5a8775cf93e"
+    },
+    {
+      "url": "/artifacts/reviews/catalog-independent.md",
+      "status": 200,
+      "bytes": 9468,
+      "sha256": "00e54a268a15583e590c27200ddd19bf307eba17e418f841af5a4e30cf89044e"
+    },
+    {
+      "url": "/docs/GENERATIVE_RENDERING.md",
+      "status": 200,
+      "bytes": 2979,
+      "sha256": "9b5ff03aa91d9dd60e60df6429cc387cab9dc17505366b22c77afe706e4b09af"
+    },
+    {
+      "url": "/artifacts/reviews/settings-independent.md",
+      "status": 200,
+      "bytes": 21052,
+      "sha256": "168edb49a59ce2f4984cc7861db1d27da2371262ac385045924031234748e9ee"
+    },
+    {
+      "url": "/artifacts/reviews/raster-scope-dollhouse.png",
+      "status": 200,
+      "bytes": 936429,
+      "sha256": "902102124948e51a4e58d4e8a3a5981daddac676ffdee1284cb28888e50b04c7"
+    },
+    {
+      "url": "/artifacts/reviews/raster-scope-menu.png",
+      "status": 200,
+      "bytes": 90582,
+      "sha256": "fb3652aabf86a7d727a53483b5cf7c692acac54a27626b5a21283b3a139ed54e"
+    },
+    {
+      "url": "/artifacts/reviews/round7-fixed-2d-furniture-off.png",
+      "status": 200,
+      "bytes": 100624,
+      "sha256": "30adabbc9726ff9a856c06ab94168b4793e5cb93c888b2c76295456faab87da1"
+    },
+    {
+      "url": "/artifacts/reviews/round7-catalog-reopened-3d.png",
+      "status": 200,
+      "bytes": 111891,
+      "sha256": "9cad9843c7f049bb5f0d060ab91c1f03722399e1a4d5b71614d3c006a7f993be"
+    }
+  ]
+}

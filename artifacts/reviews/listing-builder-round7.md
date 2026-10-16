@@ -1,0 +1,11 @@
+# Listing exporter builder check — round 7
+
+Scope: `roomplan/export.py` only. This is implementer QA, not independent visual acceptance. The active user amendment in `docs/quality-bar.md` excludes ray tracing/photorealism; furnished listing quality remains required.
+
+Inspected actual prior `round3-listing.jpg` and frozen `floorplanner-full-color-01.jpg`. The highest-value visible gap was flat furnishing/floor materials. Updated SVG uses staggered physically scaled floorboards/grain, source-color-derived gradients, cushion piping/weave, bedding folds, shaped foliage, ceramic depth and refrigerator detail. Model geometry, source object kinds, positions, rotations and sizes remain the input to drawing; no alternative apartment or authored comparison image was substituted.
+
+Room names now search more free-floor candidates, avoid furniture plus door swing bounding regions and previously placed labels, and move to an external room schedule if no safe candidate exists. Fixed the prior overall-width dimension crossing the outward entrance swing by positioning the dimension below its extent.
+
+Evidence: `round7-listing-local.svg` is the production `export_svg(demo_project())` output; `round7-listing-local.png` is its 1200 × 1080 Sharp rasterization, inspected at full size. This is a local renderer check; the lead must separately capture the real app's current export. The four demo room labels have clear floor positions; entrance arc and dimension no longer overlap. Floorboard variation, upholstery seams and restrained contact shadows are visible. The output remains an architectural illustration; no parity or preference win over Floorplanner is asserted.
+
+Validation: existing `tests.test_backend.ModelTests.test_svg_is_xml_escapes_text_and_contains_furniture` passes. Additional direct checks confirmed source model immutability, changed 12 m envelope reaching the width annotation, moved/resized object changing the SVG, and one source-category `data-kind` group per object. A crowded room schedule and a tiny resized furniture fixture both produced parseable XML. Parseability does not establish general visual quality for every edited scene. Separate critic should inspect actual browser export and any requested alternate populated scene.

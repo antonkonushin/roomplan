@@ -1,0 +1,34 @@
+[
+  {
+    "expected": "Шкаф Birch",
+    "actual": "Шкаф Birch"
+  },
+  {
+    "expected": "Шкаф Graphite",
+    "actual": "Шкаф Graphite"
+  },
+  {
+    "expected": "Холодильник Tall",
+    "actual": "Холодильник Tall"
+  },
+  {
+    "expected": "Холодильник Wide",
+    "actual": "Холодильник Wide"
+  },
+  {
+    "expected": "Унитаз Compact",
+    "actual": "Унитаз Compact"
+  },
+  {
+    "expected": "Унитаз Oval",
+    "actual": "Унитаз Oval"
+  },
+  {
+    "expected": "Экран 55",
+    "actual": "Экран 55"
+  },
+  {
+    "expected": "Экран 43",
+    "actual": "Экран 43"
+  }
+]
