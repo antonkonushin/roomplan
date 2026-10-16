@@ -1,0 +1,436 @@
+{
+  "assets": {
+    "files": [
+      {
+        "name": "two-room-plan.png",
+        "sameOriginalArchive": true,
+        "sameFixture": true,
+        "sha256": "d03cc8399f49e25e8afa40f4dc5be3c11d41bf0bc67f5b20d5953350a01a63da",
+        "bytes": 3937
+      },
+      {
+        "name": "synthetic-walkthrough.mp4",
+        "sameOriginalArchive": true,
+        "sameFixture": true,
+        "sha256": "ad97a3993027c530f30d77b9e2dc7ff13e6fd878ef3c0009ec84a25fc0ff7239",
+        "bytes": 49176
+      },
+      {
+        "name": "wide-test-object.glb",
+        "sameOriginalArchive": true,
+        "sameFixture": true,
+        "sha256": "e79fe7558c2f8ccaa71efb33518042ab8f76a79ed28e240c7552f331cb2de282",
+        "bytes": 988
+      },
+      {
+        "name": "research-layers.json",
+        "sameOriginalArchive": true,
+        "sameFixture": true,
+        "sha256": "08abb816cfed3c5c710a606b9791a75bf1a54dab1e811e22f65fe2f6abf0c6db",
+        "bytes": 1858
+      }
+    ],
+    "unchangedFields": {
+      "walls": true,
+      "rooms": true,
+      "objects": true,
+      "openings": true,
+      "pointCloud": true,
+      "provenance": true,
+      "sources": true,
+      "assets": true
+    },
+    "layers": {
+      "architecture": true,
+      "furniture": true,
+      "pointCloud": false,
+      "boxes": false,
+      "research": true
+    },
+    "researchLayers": [
+      {
+        "version": 1,
+        "id": "qa-observations",
+        "name": "Synthetic sparse observations",
+        "kind": "points",
+        "visible": true,
+        "units": "m",
+        "coordinateFrame": "project-x-y-z",
+        "positions": [
+          [
+            1.4,
+            0.2,
+            3
+          ],
+          [
+            1.6,
+            0.4,
+            3
+          ],
+          [
+            1.8,
+            0.6,
+            3
+          ],
+          [
+            2,
+            0.8,
+            3
+          ],
+          [
+            2.2,
+            1,
+            3
+          ],
+          [
+            2.4,
+            1.2,
+            3
+          ]
+        ],
+        "color": "#d94d7d",
+        "sourceIds": [],
+        "assetIds": [
+          "qa-research-json"
+        ],
+        "provenance": {
+          "method": "deterministic-qa-fixture",
+          "isSynthetic": true,
+          "inputUsedForGeometry": false
+        }
+      },
+      {
+        "version": 1,
+        "id": "qa-wall-hypothesis",
+        "name": "Synthetic wall hypothesis",
+        "kind": "lines",
+        "visible": false,
+        "units": "m",
+        "coordinateFrame": "project-x-y-z",
+        "positions": [
+          [
+            3,
+            0.15,
+            3.5
+          ],
+          [
+            4.4,
+            0.15,
+            3.5
+          ],
+          [
+            4.4,
+            1.7,
+            3.5
+          ],
+          [
+            3,
+            1.7,
+            3.5
+          ]
+        ],
+        "segments": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "color": "#126fd6",
+        "sourceIds": [],
+        "assetIds": [
+          "qa-research-json"
+        ],
+        "provenance": {
+          "method": "deterministic-qa-fixture",
+          "isSynthetic": true,
+          "inputUsedForGeometry": false
+        }
+      }
+    ],
+    "settings": {
+      "cutaway": true,
+      "dimensions": true,
+      "roomLabels": true,
+      "light": 1.1,
+      "view": "3d",
+      "camera": {
+        "position": [
+          13.840000000000002,
+          11.559999999999999,
+          14.809999999999997
+        ],
+        "target": [
+          5,
+          0,
+          3.25
+        ]
+      },
+      "cameraFov": 36,
+      "orthoCamera": {
+        "position": [
+          5,
+          25,
+          3.251
+        ],
+        "target": [
+          5,
+          0,
+          3.25
+        ]
+      },
+      "orthoZoom": 1,
+      "walkPath": [],
+      "walkPathMode": "custom"
+    },
+    "supportLinks": [
+      {
+        "id": "o6",
+        "supportId": "o5",
+        "position": [
+          5.42,
+          0.48,
+          5.4
+        ]
+      }
+    ],
+    "objectCount": 25
+  },
+  "secondPlan": {
+    "wallCount": 6,
+    "extent": [
+      9,
+      4.9807
+    ],
+    "ceilingHeight": 2.9,
+    "allWallHeights": [
+      2.9,
+      2.9,
+      2.9,
+      2.9,
+      2.9,
+      2.9
+    ],
+    "objects": 0,
+    "maxEndpointErrorM": 0.019730686759462126,
+    "doorGapM": 1.0021,
+    "matched": [
+      {
+        "expected": [
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ],
+        "actual": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            9,
+            0
+          ],
+          "height": 2.9,
+          "thickness": 0.1747
+        },
+        "maxEndpointErrorM": 0.0
+      },
+      {
+        "expected": [
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            5
+          ]
+        ],
+        "actual": {
+          "id": "w6",
+          "a": [
+            9,
+            0
+          ],
+          "b": [
+            9,
+            4.9807
+          ],
+          "height": 2.9,
+          "thickness": 0.1747
+        },
+        "maxEndpointErrorM": 0.019300000000000317
+      },
+      {
+        "expected": [
+          [
+            9,
+            5
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "actual": {
+          "id": "w2",
+          "a": [
+            0,
+            4.9807
+          ],
+          "b": [
+            9,
+            4.9807
+          ],
+          "height": 2.9,
+          "thickness": 0.1747
+        },
+        "maxEndpointErrorM": 0.019300000000000317
+      },
+      {
+        "expected": [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "actual": {
+          "id": "w3",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            0,
+            4.9807
+          ],
+          "height": 2.9,
+          "thickness": 0.1747
+        },
+        "maxEndpointErrorM": 0.019300000000000317
+      },
+      {
+        "expected": [
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "actual": {
+          "id": "w4",
+          "a": [
+            6.0041,
+            0
+          ],
+          "b": [
+            6.0041,
+            1.9893
+          ],
+          "height": 2.9,
+          "thickness": 0.1747
+        },
+        "maxEndpointErrorM": 0.011458621208504988
+      },
+      {
+        "expected": [
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "actual": {
+          "id": "w5",
+          "a": [
+            6.0041,
+            2.9914
+          ],
+          "b": [
+            6.0041,
+            4.9807
+          ],
+          "height": 2.9,
+          "thickness": 0.1747
+        },
+        "maxEndpointErrorM": 0.019730686759462126
+      }
+    ],
+    "sourceByteEqual": true,
+    "sourceSHA256": "4f761a35c2aec3198af33c787ed3621eb19c30b9d6fd8825ba25f718bc73f14d",
+    "provenance": {
+      "mode": "plan",
+      "method": "threshold-axis-line-baseline-v1",
+      "isSynthetic": false,
+      "calibration": {
+        "widthMeters": 9,
+        "pixelWidth": 720.9990555555554,
+        "metersPerPixel": 0.012482679319274808,
+        "rawRasterPixelWidth": 733.75,
+        "reference": "joined-outer-wall-centrelines"
+      },
+      "imageSize": [
+        880,
+        560
+      ],
+      "roomBoundary": "bounding-envelope-estimate",
+      "topology": "perpendicular-centreline-junctions"
+    },
+    "rooms": [
+      {
+        "id": "r1",
+        "name": "Область плана · проверить",
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            4.9807
+          ],
+          [
+            0,
+            4.9807
+          ]
+        ],
+        "color": "#e8decd"
+      }
+    ]
+  }
+}

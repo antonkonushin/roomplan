@@ -1,0 +1,8 @@
+{
+  "fixture": "two-room-plan.png",
+  "knownWidthMeters": 8,
+  "heightMeters": 2.7,
+  "wallSegments": 8,
+  "axisAligned": true,
+  "notes": "Door gaps present. Skewed variant deliberately tests unsupported 3 degree scan skew; expect warning/rejection or observed limited quality, never silent demo."
+}

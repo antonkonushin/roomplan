@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+import {resolve} from 'node:path';
+
+// Node has no browser import map. Resolve the same locally vendored Three build;
+// execute the exact renderer source without a GPU or WebGL mock.
+const threeURL = pathToFileURL(resolve('web/vendor/three/build/three.module.js')).href;
+const source = (await readFile('web/research.js', 'utf8')).replace("from 'three'", `from '${threeURL}'`);
+const {buildResearchLayers} = await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`);
+const fixture = JSON.parse(await readFile('artifacts/fixtures/research-layers.json', 'utf8'));
+fixture.researchLayers[1].visible = false;
+const original = structuredClone(fixture);
+const root = buildResearchLayers(fixture);
+assert.equal(root.children.length, 2);
+assert.equal(root.visible, true);
+const [points, lines] = root.children;
+assert.equal(points.userData.researchLayerId, 'qa-observations');
+assert.equal(points.visible, true);
+assert.equal(lines.visible, false);
+assert.equal(points.children[0].isPoints, true);
+assert.equal(lines.children[0].isLineSegments, true);
+assert.equal(points.children[0].geometry.attributes.position.count, 6);
+assert.deepEqual(Array.from(lines.children[0].geometry.index.array), [0,1,1,2,2,3,3,0,0,2]);
+const geometryPoint = points.children[0].geometry.attributes.position;
+assert.ok(Math.abs(geometryPoint.getY(0)-.2)<1e-6, 'metric height must not be scaled or axis-flipped');
+assert.deepEqual(fixture, original, 'renderer must not modify model data');
+const rebuilt = buildResearchLayers(fixture);
+assert.deepEqual(rebuilt.children.map(g=>g.name), root.children.map(g=>g.name));
+assert.deepEqual(rebuilt.children.map(g=>g.visible), [true,false]);
+assert.equal(buildResearchLayers({}).children.length, 0);
+assert.throws(()=>buildResearchLayers({researchLayers:[{...fixture.researchLayers[0],kind:'cameras'}]}), /Unsupported/);
+for (const group of [root, rebuilt]) group.traverse(o=>{o.geometry?.dispose();o.material?.dispose();});
+console.log('Research renderer: points, explicit line indices, metric coordinates, stable IDs, independent visibility, and immutability PASS');

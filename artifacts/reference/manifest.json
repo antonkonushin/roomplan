@@ -1,0 +1,33 @@
+{
+  "frozenAt": "2026-10-15T23:22:55+03:00",
+  "selection": "First numbered carousel image for each required category, selected before viewing RoomPlan",
+  "captureMethod": "Codex IAB browser screenshot of direct public image URL, 1280x720 viewport; screenshots include image-viewer margins; not original image downloads",
+  "images": [
+    {
+      "id": "FP-2D-01",
+      "gallery": "https://floorplanner.com/2d-floorplan-examples",
+      "url": "https://static.floorplanner.com/_next/static/media/full-color-01.8df211e4.png",
+      "sourceDimensions": [1200, 738],
+      "screenshot": "floorplanner-full-color-01.jpg",
+      "sha256": "61DAAF01349AA8931F4000B90E048C17F83FEB0AF45579CE5E80CB6EBA97F455"
+    },
+    {
+      "id": "FP-DH-01",
+      "gallery": "https://floorplanner.com/3d-floorplan-examples",
+      "url": "https://static.floorplanner.com/_next/static/media/dollhouse-view-01.4e2c4cd9.png",
+      "sourceDimensions": [1200, 738],
+      "screenshot": "floorplanner-dollhouse-01.jpg",
+      "sha256": "AEAF4C0ECE18F8F14707929371E55BBB8D24A9D272542FA0CFEF179D58EDA91F"
+    },
+    {
+      "id": "FP-IN-01",
+      "gallery": "https://floorplanner.com/3d-render-examples",
+      "url": "https://static.floorplanner.com/_next/static/media/interior-01.87c540b4.png",
+      "sourceDimensions": [1195, 738],
+      "screenshot": "floorplanner-interior-01.jpg",
+      "sha256": "9063B3C20E31AADAC16BC48B219D7BCFA241C2BEE182EB61D7175970FDB395B9"
+    }
+  ],
+  "comparisonPerformed": false,
+  "blindness": "Reference critic knows reference identities. Any later own comparison is independent of builder reasoning but non-blind. Randomized anonymous external judging must be recorded separately."
+}

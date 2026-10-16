@@ -1,0 +1,1651 @@
+{
+  "at": "2026-10-15T21:01:38.209Z",
+  "scope": "Production JS handlers and actual geometry vertices; no rendering, visual recognizability or browser pointer claim. Route geometry sampled at 1001 actual CatmullRom points.",
+  "sourceSHA256": {
+    "web/app.js": "72500fa37c7de63455f947011348f52a7bb8ff75a44b1620b14a9fc6d0951ef5",
+    "web/scene.js": "bef34738aad185a3dc41c2bacbe8d71fc0d1df693bcbd278b07f677395338bb4",
+    "web/furniture.js": "61d99afffb469b21dce6be170efebba51505ef8ee187c24d73872ba5b13035d4",
+    "web/editing.js": "d0e10fb6f5e127ec85db5b7ce869517de32cd8f35549f896ddddd6e0ef7497c8"
+  },
+  "results": [
+    {
+      "name": "Demo interior preset actual UI handlers",
+      "status": "PASS",
+      "evidence": {
+        "mode": "interior",
+        "cutaway": false,
+        "fov": 58,
+        "length": 1.706604816587603,
+        "endpointSeparation": 1.7066048165876013,
+        "wallClearance": 1.0699999999999994,
+        "objectClearance": 0.7172135491879692,
+        "outside": 0,
+        "samples": 1001,
+        "points": [
+          {
+            "position": [
+              4.65,
+              1.58,
+              2.8
+            ],
+            "target": [
+              1,
+              1.05,
+              4.15
+            ]
+          },
+          {
+            "position": [
+              4.5,
+              1.58,
+              4.5
+            ],
+            "target": [
+              1,
+              1.05,
+              4.15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Interior path mode and points survive settings reload",
+      "status": "PASS",
+      "evidence": {
+        "mode": "interior",
+        "points": [
+          {
+            "position": [
+              4.65,
+              1.58,
+              2.8
+            ],
+            "target": [
+              1,
+              1.05,
+              4.15
+            ]
+          },
+          {
+            "position": [
+              4.5,
+              1.58,
+              4.5
+            ],
+            "target": [
+              1,
+              1.05,
+              4.15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Overview button remains a different route",
+      "status": "PASS",
+      "evidence": {
+        "mode": "overview",
+        "points": [
+          {
+            "position": [
+              2,
+              3,
+              8.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          },
+          {
+            "position": [
+              8,
+              3,
+              8.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          },
+          {
+            "position": [
+              10,
+              4,
+              1.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          },
+          {
+            "position": [
+              2,
+              4,
+              0.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Imported-plan interior route has real movement and clearance",
+      "status": "FAIL",
+      "evidence": {
+        "mode": "interior",
+        "length": 7.991655758752378,
+        "endpointSeparation": 7.991655758752376,
+        "wallClearance": 0.05388832248476462,
+        "objectClearance": null,
+        "outside": 0,
+        "samples": 1001,
+        "points": [
+          {
+            "position": [
+              0.8,
+              1.58,
+              5.38434
+            ],
+            "target": [
+              4,
+              1.05,
+              2.9913
+            ]
+          },
+          {
+            "position": [
+              7.2,
+              1.58,
+              0.59826
+            ],
+            "target": [
+              4,
+              1.05,
+              2.9913
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Save then edit same selected wall then save exact dimensions",
+      "status": "PASS",
+      "evidence": {
+        "selectedId": "w1",
+        "identityAfterSave": true,
+        "fieldValues": [
+          "9.00",
+          "3.10",
+          "0.14"
+        ],
+        "liveWall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            9,
+            0
+          ],
+          "height": 3.1,
+          "thickness": 0.1398
+        },
+        "exportedWall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            9,
+            0
+          ],
+          "height": 3.1,
+          "thickness": 0.1398
+        },
+        "downloads": 2,
+        "zipBytes": 1875
+      }
+    },
+    {
+      "name": "Two distinct constructed models: Диваны",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "sofa-1",
+          "category": "Диваны",
+          "meshes": 20,
+          "vertices": 39992,
+          "geometryHash": "87ebee69631a5a4631da73ddcdab4d1c5a39217f0e35103d15ccba1639acbada",
+          "bounds": [
+            2.250000007152557,
+            0.885590432571279,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "sofa-2",
+          "category": "Диваны",
+          "meshes": 20,
+          "vertices": 39992,
+          "geometryHash": "6fd099f37f9c74d9a170bd3a0d4b38e041b067f96246b13544d18fcee8deb346",
+          "bounds": [
+            2.6500000953674316,
+            0.885590432571279,
+            1.0499999523162842
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Кресла",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "armchair-1",
+          "category": "Кресла",
+          "meshes": 11,
+          "vertices": 21421,
+          "geometryHash": "36ef16ba925e799c0c4301cf18552212549a3543de230c50c60332af4a4f5dd2",
+          "bounds": [
+            0.800000011920929,
+            0.8571034090254773,
+            0.800000011920929
+          ]
+        },
+        {
+          "id": "armchair-2",
+          "category": "Кресла",
+          "meshes": 11,
+          "vertices": 21421,
+          "geometryHash": "c2857556c0f845180e3c34183a83b0782570579efc99482d55eb1eab8a27d5cc",
+          "bounds": [
+            0.9000000071525573,
+            0.8571034090254773,
+            0.8799999952316284
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Журнальные столы",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "coffeeTable-1",
+          "category": "Журнальные столы",
+          "meshes": 17,
+          "vertices": 9044,
+          "geometryHash": "1baf0ac20453719648f31638d17e9c923c62a43e7928ba278dbb2a29c226f074",
+          "bounds": [
+            1.100000023841858,
+            0.8505474810835928,
+            0.6000000238418579
+          ]
+        },
+        {
+          "id": "coffeeTable-2",
+          "category": "Журнальные столы",
+          "meshes": 17,
+          "vertices": 9044,
+          "geometryHash": "1689b668792d0d6d6fb0d2878884672cd57a76a8a35c6da6da4068e2f3e0fb59",
+          "bounds": [
+            0.8500000238418579,
+            0.890547491812429,
+            0.8500000238418579
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Кровати",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "bed-1",
+          "category": "Кровати",
+          "meshes": 18,
+          "vertices": 22248,
+          "geometryHash": "d537599ebe81aaec13917b228c7452a6e35eb294b02690dfce1b6b3ee92382ee",
+          "bounds": [
+            1.75,
+            0.6800000062584877,
+            2.2100000463426115
+          ]
+        },
+        {
+          "id": "bed-2",
+          "category": "Кровати",
+          "meshes": 18,
+          "vertices": 22248,
+          "geometryHash": "d59bd31dc5354c3debf512610ed3b1854cfdff1a33e60d854018f955909d098c",
+          "bounds": [
+            1.9500000476837158,
+            0.6800000032782555,
+            2.2600000225007535
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Хранение",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "wardrobe-1",
+          "category": "Хранение",
+          "meshes": 13,
+          "vertices": 11700,
+          "geometryHash": "a6f7be401fc2b4aa0228fb1b9d6adb4b02e564c89ade7d8cf1fba1561ab2017e",
+          "bounds": [
+            1.7999999523162842,
+            2.300000015050173,
+            0.6550000115856528
+          ]
+        },
+        {
+          "id": "wardrobe-2",
+          "category": "Хранение",
+          "meshes": 9,
+          "vertices": 8100,
+          "geometryHash": "9a23ef2a9eadd2cc905f8525821122754853e43bb7cf35d8471256d3b1842fb1",
+          "bounds": [
+            1.2000000476837158,
+            2.1999999435245994,
+            0.6550000115856528
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Обеденные столы",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "diningTable-1",
+          "category": "Обеденные столы",
+          "meshes": 53,
+          "vertices": 9583,
+          "geometryHash": "d6a9e5d6bb14c73fb26dc7d3dd8cb7a327ebb23156ea7ad3b0ab47de2084c1f7",
+          "bounds": [
+            1.399999976158142,
+            1.0017665802735827,
+            0.8500000238418579
+          ]
+        },
+        {
+          "id": "diningTable-2",
+          "category": "Обеденные столы",
+          "meshes": 53,
+          "vertices": 9583,
+          "geometryHash": "1177598cf83f1dd20bda224e8e117d49d9991ed6656b3901557ac54d06ad0bf0",
+          "bounds": [
+            1.7999999523162842,
+            1.0117665755052112,
+            0.8999999761581421
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Стулья",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "diningChair-1",
+          "category": "Стулья",
+          "meshes": 10,
+          "vertices": 3799,
+          "geometryHash": "e33000befe952ae50d6a30c6aaaf4db5f925e340f9a3e9adb7eab7430c791b89",
+          "bounds": [
+            0.480754554271698,
+            0.7880319415209674,
+            0.5265624505632747
+          ]
+        },
+        {
+          "id": "diningChair-2",
+          "category": "Стулья",
+          "meshes": 10,
+          "vertices": 3799,
+          "geometryHash": "8e8c087485ebd8bed8da255ff87a53c7e801b5534e25f9ebc0c43271de48cd32",
+          "bounds": [
+            0.5167074799537659,
+            0.8074645993824272,
+            0.5453223697159997
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Тумбы",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "cabinet-1",
+          "category": "Тумбы",
+          "meshes": 55,
+          "vertices": 16823,
+          "geometryHash": "75ecf544e13acefa2f609d2aed12a22852535376aac706ec3bae8f0bd5e5659a",
+          "bounds": [
+            1.8200000524520874,
+            0.6928412639101615,
+            0.46499999310821294
+          ]
+        },
+        {
+          "id": "cabinet-2",
+          "category": "Тумбы",
+          "meshes": 51,
+          "vertices": 13223,
+          "geometryHash": "ddd98475a9d7611ecd2445458439d9192e3c2040d42f7dff87e449b1296af632",
+          "bounds": [
+            0.6821957037335881,
+            0.7128412639101616,
+            0.5149999990686774
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Рабочие столы",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "desk-1",
+          "category": "Рабочие столы",
+          "meshes": 7,
+          "vertices": 6300,
+          "geometryHash": "771ff1e0636c80a2602ae8d53c7cd153ca3e1cf75ffa43c6f0b2c1f19a95a781",
+          "bounds": [
+            1.399999976158142,
+            1.0450000041723253,
+            0.6499999761581421
+          ]
+        },
+        {
+          "id": "desk-2",
+          "category": "Рабочие столы",
+          "meshes": 7,
+          "vertices": 6300,
+          "geometryHash": "1ef68e6e9fe3f44d73746b165f19fe553c880760f98f3e1bb00346693edd570e",
+          "bounds": [
+            1.100000023841858,
+            1.0450000041723253,
+            0.6000000238418579
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Рабочие кресла",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "officeChair-1",
+          "category": "Рабочие кресла",
+          "meshes": 10,
+          "vertices": 3799,
+          "geometryHash": "c07bd00bfc3be378b0fd1767a7e199c2df016faa55d94f7a950cef7f44d3202e",
+          "bounds": [
+            0.6081722378730774,
+            0.9800177572000536,
+            0.6205569620539891
+          ]
+        },
+        {
+          "id": "officeChair-2",
+          "category": "Рабочие кресла",
+          "meshes": 10,
+          "vertices": 3799,
+          "geometryHash": "a263090bda705611c0dce69b7b9a33b5c1ae4106738e642fb361b14315c07783",
+          "bounds": [
+            0.6542302966117859,
+            1.0759067170917276,
+            0.6683191061019897
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Холодильники",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "fridge-1",
+          "category": "Холодильники",
+          "meshes": 4,
+          "vertices": 3600,
+          "geometryHash": "ae84e328c0c2c21980faa485677dabb3e61d4347bcc3d3fd8715397bcb1677cd",
+          "bounds": [
+            0.6499999761581421,
+            1.899999976158142,
+            0.6869999881535769
+          ]
+        },
+        {
+          "id": "fridge-2",
+          "category": "Холодильники",
+          "meshes": 4,
+          "vertices": 3600,
+          "geometryHash": "c80b9bf8d605e5a03b163768c23536a7ce58a45fb465f88573f7c7d34829a8b0",
+          "bounds": [
+            0.8500000238418579,
+            1.7999999523162842,
+            0.7384999941140413
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Кухонные модули",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "stove-1",
+          "category": "Кухонные модули",
+          "meshes": 8,
+          "vertices": 4480,
+          "geometryHash": "c44fac2a504674ed95be5dd50d0866619ef412281dad1fd5bf7cac185e3b233f",
+          "bounds": [
+            0.6000000238418579,
+            0.9155000069849193,
+            0.6575000117719173
+          ]
+        },
+        {
+          "id": "stove-2",
+          "category": "Кухонные модули",
+          "meshes": 8,
+          "vertices": 4480,
+          "geometryHash": "a6c2828a511ab9b0eaf71659584ed8a315be21297b252de3bdf09815c56a15f0",
+          "bounds": [
+            0.800000011920929,
+            0.9155000069849193,
+            0.6575000117719173
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Мойки",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "sink-1",
+          "category": "Мойки",
+          "meshes": 6,
+          "vertices": 4720,
+          "geometryHash": "1cbc39954473cecc6d7560b699a0237dd46cc8280f9548ad0c88276d2042c9e2",
+          "bounds": [
+            0.824999988079071,
+            1.1375000121071934,
+            0.625
+          ]
+        },
+        {
+          "id": "sink-2",
+          "category": "Мойки",
+          "meshes": 6,
+          "vertices": 4720,
+          "geometryHash": "a0492c3b66ad3840382f45cc3aafea1325e0c64fb771504a825c44c29a6a3a87",
+          "bounds": [
+            0.675000011920929,
+            1.087500006146729,
+            0.5249999761581421
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Санузел",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "toilet-1",
+          "category": "Санузел",
+          "meshes": 4,
+          "vertices": 1845,
+          "geometryHash": "4be48a6bd7aa815d26cbad5689c1e0144736be582a7f98c5b311a5dbe1e023fa",
+          "bounds": [
+            0.384,
+            0.7499999880790711,
+            0.6887499970197677
+          ]
+        },
+        {
+          "id": "toilet-2",
+          "category": "Санузел",
+          "meshes": 4,
+          "vertices": 1845,
+          "geometryHash": "076f965b00cba40b01e71baf8c8b7e94c6cc10706b72a34f7deebeb2afa9c708",
+          "bounds": [
+            0.40319999999999995,
+            0.7200000040531158,
+            0.7324999985098839
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Ванны",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "bathtub-1",
+          "category": "Ванны",
+          "meshes": 4,
+          "vertices": 2920,
+          "geometryHash": "812b34e2172002af54102f037c0981958ce6540a1f262768760194489f9682e8",
+          "bounds": [
+            0.800000011920929,
+            0.7399999898672103,
+            1.7000000476837158
+          ]
+        },
+        {
+          "id": "bathtub-2",
+          "category": "Ванны",
+          "meshes": 4,
+          "vertices": 2920,
+          "geometryHash": "abd173311a576223c917519de6472119ceb40f07797697c0b57a14836bada17e",
+          "bounds": [
+            0.75,
+            0.7600000101327895,
+            1.600000023841858
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Растения",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "plant-1",
+          "category": "Растения",
+          "meshes": 40,
+          "vertices": 3323,
+          "geometryHash": "03bba4cf4f3fe793b883f12ab2c68fc5926c8a4f9226417cbb90ef46f4ea840c",
+          "bounds": [
+            1.014433786301236,
+            1.3920929386959633,
+            0.990901499438516
+          ]
+        },
+        {
+          "id": "plant-2",
+          "category": "Растения",
+          "meshes": 40,
+          "vertices": 3323,
+          "geometryHash": "1e165991d0df88af80de05b0342edcd91bbb4bcc35ae522c64b06a7012f73036",
+          "bounds": [
+            0.9614276542791742,
+            1.0419546388776673,
+            0.9514964696399688
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Телевизоры",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "tv-1",
+          "category": "Телевизоры",
+          "meshes": 5,
+          "vertices": 3820,
+          "geometryHash": "7bed74cb14e05c1e4b85e78e5e9acd88b2f613a77f9098b10d9286358ad37e7f",
+          "bounds": [
+            1.2300000190734863,
+            0.7067000116229057,
+            0.10000000149011612
+          ]
+        },
+        {
+          "id": "tv-2",
+          "category": "Телевизоры",
+          "meshes": 5,
+          "vertices": 3820,
+          "geometryHash": "d3d1fd2c7a0fca2c0801cd459ccbd844d783b30d5a28e63c665e8f2905f8dd4b",
+          "bounds": [
+            0.9700000286102295,
+            0.5884999949336052,
+            0.10000000149011612
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two distinct constructed models: Ковры",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "rug-1",
+          "category": "Ковры",
+          "meshes": 5,
+          "vertices": 4500,
+          "geometryHash": "ee2830bc0146b2bea938df55ce2474e81222ef097bd845f4b9cff3c08530e2a3",
+          "bounds": [
+            2.4000000953674316,
+            0.017999999845400454,
+            1.7999999523162842
+          ]
+        },
+        {
+          "id": "rug-2",
+          "category": "Ковры",
+          "meshes": 5,
+          "vertices": 4500,
+          "geometryHash": "c4e9804375cfae884f91d7e68dfd710e59c23ca2f9e52ff8611e75d18c29b127",
+          "bounds": [
+            2.0999999046325684,
+            0.017999999845400454,
+            1.600000023841858
+          ]
+        }
+      ]
+    },
+    {
+      "name": "All catalog entries placed and support constraints satisfied",
+      "status": "PASS",
+      "evidence": {
+        "count": 36,
+        "placements": [
+          {
+            "id": "sofa-1",
+            "ok": true,
+            "object": {
+              "id": "604a921b-a2c8-44ae-8c99-697e80f0179f",
+              "catalogId": "sofa-1",
+              "name": "Диван Linen",
+              "kind": "sofa",
+              "size": [
+                2.25,
+                0.82,
+                0.9
+              ],
+              "color": "#d4c6ae",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "sofa-2",
+            "ok": true,
+            "object": {
+              "id": "db18b3d2-f87d-4f56-a621-6f0eb2cd6ab0",
+              "catalogId": "sofa-2",
+              "name": "Диван Moss",
+              "kind": "sofa",
+              "size": [
+                2.65,
+                0.78,
+                1.05
+              ],
+              "color": "#799184",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "armchair-1",
+            "ok": true,
+            "object": {
+              "id": "a6686eb3-3127-40a4-a704-78e67fbd92e7",
+              "catalogId": "armchair-1",
+              "name": "Кресло Shell",
+              "kind": "armchair",
+              "size": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "color": "#c19b78",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "armchair-2",
+            "ok": true,
+            "object": {
+              "id": "0ac6a7cb-5b0c-4b5a-9760-811749cd99fc",
+              "catalogId": "armchair-2",
+              "name": "Кресло Lounge",
+              "kind": "armchair",
+              "size": [
+                0.9,
+                0.75,
+                0.88
+              ],
+              "color": "#b2bab2",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "coffeeTable-1",
+            "ok": true,
+            "object": {
+              "id": "ba214c74-d604-47c7-affd-c14ef4dcefcc",
+              "catalogId": "coffeeTable-1",
+              "name": "Стол Pebble",
+              "kind": "coffeeTable",
+              "size": [
+                1.1,
+                0.38,
+                0.6
+              ],
+              "color": "#b78d65",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "coffeeTable-2",
+            "ok": true,
+            "object": {
+              "id": "f925872b-7720-4f9c-bbf5-b3c66bec16f2",
+              "catalogId": "coffeeTable-2",
+              "name": "Стол Oak",
+              "kind": "coffeeTable",
+              "size": [
+                0.85,
+                0.42,
+                0.85
+              ],
+              "color": "#d7b88c",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "bed-1",
+            "ok": true,
+            "object": {
+              "id": "a98ab3a7-ea0b-4d3b-9937-61c533bd2113",
+              "catalogId": "bed-1",
+              "name": "Кровать Soft 160",
+              "kind": "bed",
+              "size": [
+                1.7,
+                0.55,
+                2.15
+              ],
+              "color": "#e5dfd4",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "bed-2",
+            "ok": true,
+            "object": {
+              "id": "2e922c69-3d8a-4ab7-bf40-3f2f372a5850",
+              "catalogId": "bed-2",
+              "name": "Кровать Soft 180",
+              "kind": "bed",
+              "size": [
+                1.9,
+                0.58,
+                2.2
+              ],
+              "color": "#b7beb8",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "wardrobe-1",
+            "ok": true,
+            "object": {
+              "id": "02a18c2a-6ba2-472b-a42a-8cd93a617926",
+              "catalogId": "wardrobe-1",
+              "name": "Шкаф Birch",
+              "kind": "wardrobe",
+              "size": [
+                1.8,
+                2.3,
+                0.6
+              ],
+              "color": "#e7dfcf",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "wardrobe-2",
+            "ok": true,
+            "object": {
+              "id": "d228be06-1a69-4a64-b3b8-d1161207a8d1",
+              "catalogId": "wardrobe-2",
+              "name": "Шкаф Graphite",
+              "kind": "wardrobe",
+              "size": [
+                1.2,
+                2.2,
+                0.6
+              ],
+              "color": "#666e70",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "diningTable-1",
+            "ok": true,
+            "object": {
+              "id": "62ce02e4-e6c1-4006-a8d0-915ef1196a93",
+              "catalogId": "diningTable-1",
+              "name": "Стол Arc",
+              "kind": "diningTable",
+              "size": [
+                1.4,
+                0.75,
+                0.85
+              ],
+              "color": "#cba276",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "diningTable-2",
+            "ok": true,
+            "object": {
+              "id": "d1eae776-04c3-4548-9968-71d0a62e225e",
+              "catalogId": "diningTable-2",
+              "name": "Стол Family",
+              "kind": "diningTable",
+              "size": [
+                1.8,
+                0.76,
+                0.9
+              ],
+              "color": "#c0a88e",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "diningChair-1",
+            "ok": true,
+            "object": {
+              "id": "895fcb52-e551-4e0b-a736-f3469d8b6364",
+              "catalogId": "diningChair-1",
+              "name": "Стул Wish",
+              "kind": "diningChair",
+              "size": [
+                0.46,
+                0.8,
+                0.5
+              ],
+              "color": "#b99b78",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "diningChair-2",
+            "ok": true,
+            "object": {
+              "id": "5c4d8f1d-0b96-4ea9-888d-79821fdca90a",
+              "catalogId": "diningChair-2",
+              "name": "Стул Form",
+              "kind": "diningChair",
+              "size": [
+                0.5,
+                0.82,
+                0.52
+              ],
+              "color": "#8a9b8b",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "cabinet-1",
+            "ok": true,
+            "object": {
+              "id": "0761ea60-92bc-4c13-9124-a4681bc57c1e",
+              "catalogId": "cabinet-1",
+              "name": "Тумба Linear",
+              "kind": "cabinet",
+              "size": [
+                1.8,
+                0.48,
+                0.4
+              ],
+              "color": "#b69b7a",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "cabinet-2",
+            "ok": true,
+            "object": {
+              "id": "5f7d9f2d-9752-4bb6-954b-ad21e1c2ce7e",
+              "catalogId": "cabinet-2",
+              "name": "Тумба Cube",
+              "kind": "cabinet",
+              "size": [
+                0.6,
+                0.5,
+                0.45
+              ],
+              "color": "#d7cfbf",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "desk-1",
+            "ok": true,
+            "object": {
+              "id": "3ddeff5c-3a9d-47e0-b9d4-73749cf39e65",
+              "catalogId": "desk-1",
+              "name": "Стол Studio",
+              "kind": "desk",
+              "size": [
+                1.4,
+                0.75,
+                0.65
+              ],
+              "color": "#c1a480",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "desk-2",
+            "ok": true,
+            "object": {
+              "id": "106b120e-f92d-4eff-8aee-bda998d21cd4",
+              "catalogId": "desk-2",
+              "name": "Стол Compact",
+              "kind": "desk",
+              "size": [
+                1.1,
+                0.75,
+                0.6
+              ],
+              "color": "#d8d3c7",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "officeChair-1",
+            "ok": true,
+            "object": {
+              "id": "c046b38b-d286-4510-9053-4f20557d7459",
+              "catalogId": "officeChair-1",
+              "name": "Кресло Task",
+              "kind": "officeChair",
+              "size": [
+                0.6,
+                1,
+                0.6
+              ],
+              "color": "#606e66",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "officeChair-2",
+            "ok": true,
+            "object": {
+              "id": "e6f23c59-d01d-4b14-88f1-6e83a905e17e",
+              "catalogId": "officeChair-2",
+              "name": "Кресло Mesh",
+              "kind": "officeChair",
+              "size": [
+                0.65,
+                1.1,
+                0.65
+              ],
+              "color": "#898f8b",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "fridge-1",
+            "ok": true,
+            "object": {
+              "id": "9a47826b-b930-428b-b8d1-45079656eb08",
+              "catalogId": "fridge-1",
+              "name": "Холодильник Tall",
+              "kind": "fridge",
+              "size": [
+                0.65,
+                1.9,
+                0.65
+              ],
+              "color": "#c3c9c7",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "fridge-2",
+            "ok": true,
+            "object": {
+              "id": "6530fa26-3740-405a-826c-6f3e07e0d09f",
+              "catalogId": "fridge-2",
+              "name": "Холодильник Wide",
+              "kind": "fridge",
+              "size": [
+                0.85,
+                1.8,
+                0.7
+              ],
+              "color": "#767f7e",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "stove-1",
+            "ok": true,
+            "object": {
+              "id": "69dd2967-3842-4ea1-8d73-c976bd48188a",
+              "catalogId": "stove-1",
+              "name": "Модуль с плитой",
+              "kind": "stove",
+              "size": [
+                0.6,
+                0.9,
+                0.6
+              ],
+              "color": "#d4d0c5",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "stove-2",
+            "ok": true,
+            "object": {
+              "id": "43eab16c-0f29-49ec-840c-8a8e57b61439",
+              "catalogId": "stove-2",
+              "name": "Модуль с духовкой",
+              "kind": "stove",
+              "size": [
+                0.8,
+                0.9,
+                0.6
+              ],
+              "color": "#b6bcb7",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "sink-1",
+            "ok": true,
+            "object": {
+              "id": "69f2bd72-0a55-4780-b64b-97127fc1ca91",
+              "catalogId": "sink-1",
+              "name": "Мойка Kitchen",
+              "kind": "sink",
+              "size": [
+                0.8,
+                0.9,
+                0.6
+              ],
+              "color": "#d6d4cc",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "sink-2",
+            "ok": true,
+            "object": {
+              "id": "b34f4fd5-a02f-4012-a7e3-81a5ff703986",
+              "catalogId": "sink-2",
+              "name": "Раковина Bath",
+              "kind": "sink",
+              "size": [
+                0.65,
+                0.85,
+                0.5
+              ],
+              "color": "#f3f2ec",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "toilet-1",
+            "ok": true,
+            "object": {
+              "id": "1f60ee9f-3f27-42fe-bd4a-afbadfa1f62e",
+              "catalogId": "toilet-1",
+              "name": "Унитаз Compact",
+              "kind": "toilet",
+              "size": [
+                0.4,
+                0.75,
+                0.65
+              ],
+              "color": "#f8f7f2",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "toilet-2",
+            "ok": true,
+            "object": {
+              "id": "b7883cea-6120-4c7e-8eb6-f2fa4b7c3b5e",
+              "catalogId": "toilet-2",
+              "name": "Унитаз Oval",
+              "kind": "toilet",
+              "size": [
+                0.42,
+                0.72,
+                0.7
+              ],
+              "color": "#edede7",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "bathtub-1",
+            "ok": true,
+            "object": {
+              "id": "091c5a1f-a7f0-4a31-9937-6b4fbf69d08c",
+              "catalogId": "bathtub-1",
+              "name": "Ванна Oval",
+              "kind": "bathtub",
+              "size": [
+                0.8,
+                0.58,
+                1.7
+              ],
+              "color": "#f3f1e9",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "bathtub-2",
+            "ok": true,
+            "object": {
+              "id": "42d2e780-2716-489b-a34f-07a5addf3664",
+              "catalogId": "bathtub-2",
+              "name": "Ванна Straight",
+              "kind": "bathtub",
+              "size": [
+                0.75,
+                0.6,
+                1.6
+              ],
+              "color": "#f8f6ef",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "plant-1",
+            "ok": true,
+            "object": {
+              "id": "47e0abea-af15-410f-b5f5-db4b6bca9b32",
+              "catalogId": "plant-1",
+              "name": "Фикус",
+              "kind": "plant",
+              "size": [
+                0.55,
+                1.5,
+                0.55
+              ],
+              "color": "#548365",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "plant-2",
+            "ok": true,
+            "object": {
+              "id": "4e45dc2e-adb8-499c-b046-adda7c987ea5",
+              "catalogId": "plant-2",
+              "name": "Монстера",
+              "kind": "plant",
+              "size": [
+                0.7,
+                1.1,
+                0.7
+              ],
+              "color": "#6d8c62",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "tv-1",
+            "ok": true,
+            "object": {
+              "id": "c8c8f37e-ad9e-47bb-bc10-91413a57b8a2",
+              "catalogId": "tv-1",
+              "name": "Экран 55",
+              "kind": "tv",
+              "size": [
+                1.23,
+                0.72,
+                0.1
+              ],
+              "color": "#283539",
+              "mount": "surface",
+              "position": [
+                5.42,
+                0.48,
+                5.115
+              ],
+              "rotation": 1.5707963267948966,
+              "supportId": "o5"
+            },
+            "support": {
+              "id": "o5",
+              "catalogId": "cabinet-1",
+              "name": "Тумба Linear",
+              "kind": "cabinet",
+              "position": [
+                5.42,
+                0,
+                5.4
+              ],
+              "rotation": 1.5707963267948966,
+              "size": [
+                1.8,
+                0.48,
+                0.4
+              ],
+              "color": "#b69b7a",
+              "mount": "floor"
+            }
+          },
+          {
+            "id": "tv-2",
+            "ok": true,
+            "object": {
+              "id": "ef847286-09ea-4e60-a046-b63d7e924ca7",
+              "catalogId": "tv-2",
+              "name": "Экран 43",
+              "kind": "tv",
+              "size": [
+                0.97,
+                0.6,
+                0.1
+              ],
+              "color": "#394343",
+              "mount": "surface",
+              "position": [
+                5.42,
+                0.48,
+                4.985
+              ],
+              "rotation": 1.5707963267948966,
+              "supportId": "o5"
+            },
+            "support": {
+              "id": "o5",
+              "catalogId": "cabinet-1",
+              "name": "Тумба Linear",
+              "kind": "cabinet",
+              "position": [
+                5.42,
+                0,
+                5.4
+              ],
+              "rotation": 1.5707963267948966,
+              "size": [
+                1.8,
+                0.48,
+                0.4
+              ],
+              "color": "#b69b7a",
+              "mount": "floor"
+            }
+          },
+          {
+            "id": "rug-1",
+            "ok": true,
+            "object": {
+              "id": "3ebb876f-872c-4214-b147-06e32fe12a03",
+              "catalogId": "rug-1",
+              "name": "Ковер Sand",
+              "kind": "rug",
+              "size": [
+                2.4,
+                0.015,
+                1.8
+              ],
+              "color": "#d5cbb5",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          },
+          {
+            "id": "rug-2",
+            "ok": true,
+            "object": {
+              "id": "7bb5e970-09f6-4538-901b-95dfa73f40c7",
+              "catalogId": "rug-2",
+              "name": "Ковер Sage",
+              "kind": "rug",
+              "size": [
+                2.1,
+                0.015,
+                1.6
+              ],
+              "color": "#b0b7a6",
+              "mount": "floor",
+              "position": [
+                5.15,
+                0,
+                3.25
+              ],
+              "rotation": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "All catalog placements survive actual ZIP export/import",
+      "status": "PASS",
+      "evidence": {
+        "catalogEntries": 36,
+        "totalObjects": 37,
+        "zipBytes": 3422,
+        "sha256": "540ade6d4ee2cda81082c62bad43a491370d228d2f12b82f3399502f97c36b21",
+        "sameObjects": true
+      }
+    }
+  ]
+}

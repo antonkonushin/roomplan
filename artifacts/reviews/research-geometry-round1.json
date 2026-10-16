@@ -1,0 +1,276 @@
+{
+  "at": "2026-10-15T21:23:33.923Z",
+  "scope": "Production research/scene methods; actual Three primitives and actual GLTFLoader. No rasterization, DOM, browser uploads, texture loading or human recognizability proof.",
+  "sourceSHA256": {
+    "web/research.js": "0a6bec0d0118d5640b8c9e67afb4992f0ece94e6f02aac6428c3ac20682c52b9",
+    "web/scene.js": "5c4339bdd6172eb7d0e50063a59dbf1dfe71a71c3c9d1bb5a21e870d1baab90a",
+    "web/app.js": "7bd54e2aea0eb906b48f0f3bfa7e33998e244296589f12c935b97d86c172254d",
+    "roomplan/research.py": "2fe4a65bc284e458a9b6ae1689408c456c399c4862e86f768ccd40893636824c"
+  },
+  "results": [
+    {
+      "name": "Actual points geometry qa-observations",
+      "status": "PASS",
+      "evidence": {
+        "type": "Points",
+        "positions": [
+          1.399999976158142,
+          0.20000000298023224,
+          3,
+          1.600000023841858,
+          0.4000000059604645,
+          3,
+          1.7999999523162842,
+          0.6000000238418579,
+          3,
+          2,
+          0.800000011920929,
+          3,
+          2.200000047683716,
+          1,
+          3,
+          2.4000000953674316,
+          1.2000000476837158,
+          3
+        ],
+        "index": [],
+        "visible": false
+      }
+    },
+    {
+      "name": "Layer metadata copied qa-observations",
+      "status": "PASS",
+      "evidence": {
+        "researchLayerId": "qa-observations",
+        "researchLayerName": "Synthetic sparse observations",
+        "researchLayerKind": "points",
+        "sourceIds": [],
+        "assetIds": [
+          "qa-research-json"
+        ],
+        "provenance": {
+          "method": "deterministic-qa-fixture",
+          "isSynthetic": true,
+          "inputUsedForGeometry": false,
+          "criticMetadata": {
+            "nested": [
+              "retained",
+              17
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Actual lines geometry qa-wall-hypothesis",
+      "status": "PASS",
+      "evidence": {
+        "type": "LineSegments",
+        "positions": [
+          3,
+          0.15000000596046448,
+          3.5,
+          4.400000095367432,
+          0.15000000596046448,
+          3.5,
+          4.400000095367432,
+          1.7000000476837158,
+          3.5,
+          3,
+          1.7000000476837158,
+          3.5
+        ],
+        "index": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          0,
+          0,
+          2
+        ],
+        "visible": true
+      }
+    },
+    {
+      "name": "Layer metadata copied qa-wall-hypothesis",
+      "status": "PASS",
+      "evidence": {
+        "researchLayerId": "qa-wall-hypothesis",
+        "researchLayerName": "Synthetic wall hypothesis",
+        "researchLayerKind": "lines",
+        "sourceIds": [],
+        "assetIds": [
+          "qa-research-json"
+        ],
+        "provenance": {
+          "method": "deterministic-qa-fixture",
+          "isSynthetic": true,
+          "inputUsedForGeometry": false
+        }
+      }
+    },
+    {
+      "name": "2d independent child visibility",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "qa-observations",
+          "group": false,
+          "primitive": false
+        },
+        {
+          "id": "qa-wall-hypothesis",
+          "group": true,
+          "primitive": true
+        }
+      ]
+    },
+    {
+      "name": "2d master switch preserves child settings and other groups",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "name": "2d camera helper independently hidden",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "name": "3d independent child visibility",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "qa-observations",
+          "group": false,
+          "primitive": false
+        },
+        {
+          "id": "qa-wall-hypothesis",
+          "group": true,
+          "primitive": true
+        }
+      ]
+    },
+    {
+      "name": "3d master switch preserves child settings and other groups",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "name": "3d camera helper independently hidden",
+      "status": "PASS",
+      "evidence": {}
+    },
+    {
+      "name": "Actual asymmetric GLB reaches exact dimensions and floor",
+      "status": "PASS",
+      "evidence": {
+        "min": [
+          -0.5,
+          0,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          1,
+          0.5
+        ],
+        "state": "ready"
+      }
+    },
+    {
+      "name": "Actual GLB on support plane",
+      "status": "PASS",
+      "evidence": {
+        "min": [
+          -0.5,
+          0.48,
+          -0.5
+        ],
+        "max": [
+          0.5,
+          1.48,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "Still waits for pending asset",
+      "status": "PASS",
+      "evidence": {
+        "screenshotCalls": 0
+      }
+    },
+    {
+      "name": "Still runs after asset readiness",
+      "status": "PASS",
+      "evidence": {
+        "screenshotCalls": 1
+      }
+    },
+    {
+      "name": "Malformed GLB reports error and prevents readiness",
+      "status": "PASS",
+      "evidence": {
+        "blocked": true,
+        "errors": [
+          "Не удалось загрузить 3D-модель «QA red wide mesh»: Unexpected token 'i', \"invalid GLB\" is not valid JSON. Полупрозрачная форма — только временный габарит."
+        ],
+        "events": [
+          {
+            "objectId": "qa-object",
+            "message": "Не удалось загрузить 3D-модель «QA red wide mesh»: Unexpected token 'i', \"invalid GLB\" is not valid JSON. Полупрозрачная форма — только временный габарит."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Failed asset blocks beauty screenshot",
+      "status": "PASS",
+      "evidence": {
+        "screenshotBlocked": true,
+        "screenshotCalls": 1
+      }
+    },
+    {
+      "name": "Stale parse does not attach to replacement scene",
+      "status": "PASS",
+      "evidence": {
+        "staleChildren": 0
+      }
+    },
+    {
+      "name": "Still waits for current assets after pending set replacement",
+      "status": "FAIL",
+      "evidence": {
+        "newFinished": false,
+        "screenshotCalls": 2
+      }
+    },
+    {
+      "name": "Unsupported object asset is explicitly rejected",
+      "status": "FAIL",
+      "evidence": {
+        "unsupportedBlocked": false,
+        "children": 1
+      }
+    },
+    {
+      "name": "Production rebuild integrates data and camera groups separately",
+      "status": "PASS",
+      "evidence": {
+        "primitiveTypes": [
+          "Points",
+          "LineSegments"
+        ],
+        "cameraTypes": [
+          "CameraHelper"
+        ]
+      }
+    }
+  ]
+}

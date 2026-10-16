@@ -1,0 +1,31 @@
+# Functional acceptance matrix
+
+Contract: SPEC.md, with user clarification relayed by lead: local GPU object inference is explicitly deferred; retain original sources and service adapter. Created before inspecting the runnable product on 2026-10-15. Initial status of every test is **NOT TESTED**; implementation claims and route existence do not pass a scenario. A separate dated report in artifacts/reviews/ records observed results and evidence. No Floorplanner visual comparison is claimed here.
+
+| ID | Scenario and concrete check | Pass evidence required |
+|---|---|---|
+| F01 | Upload a photographed/scanned plan with a known wall layout. Set a ceiling height and known metric width. Import a different layout and repeat. | Recognized geometry differs with inputs and follows visible wall evidence; metric scale/height observed; source retained; warnings explain limitations. A silently loaded demo fails. |
+| F02 | Correct a recognized wall or boundary; export and reopen. | Correction is exposed in usable UI, visible in both views, preserved in project. Failed recognition remains recoverable and does not destroy the previous model. |
+| F03 | Import a phone walkthrough video, then a multi-photo set. | Explicit deterministic demo/stub label before/after import; furnished plan and synthetic cloud visible; original files preserved; provenance never says actual reconstruction. Document integration seam for future height/furniture recognition. |
+| F04 | Use orbit, pan and zoom; switch 2D/3D repeatedly. | Actual camera movement and stable scene; architecture, furniture and appliances visible in both relevant views; no blank canvas or blocking errors. |
+| F05 | Toggle architecture, furniture, cloud, research overlays and object boxes independently in both view modes. | Each toggle affects only the intended data; unsupported/empty layer explained; project state persists visibility settings. |
+| F06 | Select a wall, change length and height, inspect connected walls, floors, dimensions and export. | UI selects the intended wall; finite valid metric values accepted; changes coherent at joints and room boundaries; zero/negative/invalid values rejected; edited model survives save/load. Merely changing one endpoint and leaving cracks fails. |
+| F07 | Inspect catalog and place two different entries from every category. | Categorized gallery contains at least two distinct references per category, recognizable in 2D and 3D; placements are selectable and persisted. |
+| F08 | Move a floor object, a TV on a cabinet, and a wall-mounted object. | Objects remain on valid support surfaces after movement; TV uses cabinet top height and footprint; wall object follows a wall surface. Object coordinates/visuals verify support; arbitrary floating y-values fail. |
+| F09 | Upload a furniture photo to the single-image reconstruction integration. Local GPU inference execution is accepted deferred scope by user clarification. | Preserve original inputs, provide a documented service adapter and multi-view seam, and explicitly report unavailable inference. A separately named manual proxy cannot pass as AI reconstruction. Adapter validation with a contract fixture may pass the integration requirement; actual inference remains DEFERRED and must not be claimed tested. |
+| F10 | Save a populated project ZIP containing a photo, a video, custom geometry and a research asset. Reopen in a fresh app session. | Downloaded portable archive contains all originals/assets, verified byte hashes; geometry, support links, camera/layer/settings and provenance round-trip. No server-only filesystem dependency. |
+| F11 | Configure at least two meaningfully different camera paths, export walkthrough videos and play both. | Actual downloadable playable video, correct dimensions/duration; visible scene motion follows the chosen path; export is not a static image/renamed file; model edits appear; codec limitations stated. Ordinary CG labeling; future generative seam documented. |
+| F12 | Export the furnished listing plan after moving an object/editing a wall. Open exported artifact independently. | Download opens without app state; current geometry and furniture visible; no UI selection decoration; no clipped or colliding labels; visual class judged by quality-bar.md. |
+| F13 | Produce a furnished dollhouse still and eye-level interior still. | Downloadable actual renders, usable framing and complete scene; judge against frozen references with camera, scale and limitations recorded. Photorealistic intent alone is not a pass. |
+| F14 | Malformed project, missing file, unsupported image and corrupt archive. | User-visible actionable error, JSON API error where applicable, no crash, retained working project, no silent replacement by demo. |
+| F15 | Open /progress, inspect evidence links and reload after an iteration. | Honest current status plus dated history, largest gaps, next actions, and working evidence links; failed rounds retained; no fabricated independent wins. |
+
+## Required fixture and recording discipline
+
+Use a clean demo as baseline and a clearly different synthetic floorplan (known rectangles/door gaps) for reproducible recognition checks, plus a skewed/noisy variant to expose limitations. Synthetic fixtures test baseline behavior, not general real-photo accuracy. Preserve source fixtures and expected dimensions. Any private input stays local unless explicitly authorized otherwise.
+
+For each check record app revision/time, fixture/project, exact UI steps and relevant API response, screenshot/export, expected/observed behavior, status (PASS / FAIL / PARTIAL / BLOCKED / NOT TESTED), and scope limits. A screenshot proves visible state, not persistence; an API test proves data handling, not UI usability. Both are required where appropriate. State actual exported content and playback rather than counting buttons.
+
+## Completion gate
+
+All mandatory scenarios need direct evidence. F09's local GPU execution is explicitly deferred by the user; source retention, honest unavailable state and the adapter remain required. Visual wins must independently satisfy quality-bar.md; functional success cannot compensate for a failed interior or listing rendering. Publish partial status while any non-deferred mandatory scenario, required visual class or independent comparison remains unresolved.

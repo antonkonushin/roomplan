@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="980" viewBox="0 0 1200 980">
+<defs><pattern id="wood" width="96" height="15" patternUnits="userSpaceOnUse"><path d="M0 0H96M0 15H96M47 0V15" fill="none" stroke="#9c7c54" stroke-opacity=".13" stroke-width=".6"/></pattern><pattern id="tile" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M0 0H30V30H0Z" fill="none" stroke="#a0aaa4" stroke-opacity=".3" stroke-width=".7"/></pattern><filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="1" dy="2.5" stdDeviation="2" flood-color="#263832" flood-opacity=".2"/></filter><linearGradient id="linen" x2="0" y2="1"><stop stop-color="#faf7ee"/><stop offset="1" stop-color="#ded7c8"/></linearGradient></defs>
+<rect width="100%" height="100%" fill="#faf9f5"/>
+<text x="60" y="51" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#4c6e5d">ROOMPLAN / RESIDENCES</text>
+<text x="60" y="94" font-family="Arial,sans-serif" font-size="29" font-weight="600" fill="#253b32">Квартира · Тёплый минимализм</text>
+<text x="60" y="124" font-family="Arial,sans-serif" font-size="14" fill="#738178">65.0 м²  ·  Высота 2.80 м  ·  План с расстановкой мебели</text>
+<path d="M60 146H1140" stroke="#d9dfd6"/>
+<polygon points="100,190 680.0,190 680.0,840.0 100,840.0" fill="#e9dfca"/>
+<polygon points="100,190 680.0,190 680.0,840.0 100,840.0" fill="url(#wood)"/>
+<polygon points="680.0,190 1100,190 1100,515.0 680.0,515.0" fill="#e8d9c8"/>
+<polygon points="680.0,190 1100,190 1100,515.0 680.0,515.0" fill="url(#wood)"/>
+<polygon points="680.0,515.0 870.0,515.0 870.0,840.0 680.0,840.0" fill="#ded7ca"/>
+<polygon points="680.0,515.0 870.0,515.0 870.0,840.0 680.0,840.0" fill="url(#wood)"/>
+<polygon points="870.0,515.0 1100,515.0 1100,840.0 870.0,840.0" fill="#e0e5df"/>
+<polygon points="870.0,515.0 1100,515.0 1100,840.0 870.0,840.0" fill="url(#tile)"/>
+<g transform="translate(340.0 610.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Ковер Sand</title>
+<rect x="-120.00" y="-90.00" width="240.00" height="180.00" rx="1" fill="#d5cbb5" stroke="#b8ae97"/>
+<rect x="-115.00" y="-85.00" width="230.00" height="170.00" rx="1" fill="none" stroke="#ece7d9"/>
+<path d="M-110 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-102 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-94 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-86 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-78 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-70 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-62 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-54 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-46 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-38 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-30 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-22 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-14 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M-6 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M2 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M10 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M18 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M26 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M34 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M42 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M50 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M58 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M66 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M74 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M82 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M90 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M98 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M106 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+<path d="M114 -82.0V82.0" stroke="#b5ac95" stroke-opacity=".17"/>
+</g>
+<g transform="translate(335.0 600.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Стол Pebble</title>
+<rect x="-55.00" y="-30.00" width="110.00" height="60.00" rx="12.0" fill="#b78d65"/>
+<ellipse cx="-24.20" cy="-7.20" rx="9.90" ry="9.90" fill="#f6f3e8"/>
+<ellipse cx="22.00" cy="4.80" rx="11.00" ry="11.00" fill="#7b936f"/>
+</g>
+<g transform="translate(642.0 610.0) rotate(-90.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Тумба Linear</title>
+<rect x="-90.00" y="-20.00" width="180.00" height="40.00" rx="2" fill="#b69b7a"/>
+<path d="M0 -20.0V20.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<g transform="translate(445.0 230.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Тумба Linear</title>
+<rect x="-90.00" y="-20.00" width="180.00" height="40.00" rx="2" fill="#b69b7a"/>
+<path d="M0 -20.0V20.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<g transform="translate(780.0 255.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Тумба Cube</title>
+<rect x="-30.00" y="-22.50" width="60.00" height="45.00" rx="2" fill="#d7cfbf"/>
+<path d="M0 -22.5V22.5" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<g transform="translate(1020.0 255.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Тумба Cube</title>
+<rect x="-30.00" y="-22.50" width="60.00" height="45.00" rx="2" fill="#d7cfbf"/>
+<path d="M0 -22.5V22.5" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<g transform="translate(900 320.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Кровать Soft 160</title>
+<rect x="-85.00" y="-107.50" width="170.00" height="215.00" rx="5" fill="#e5dfd4"/>
+<rect x="-81.00" y="-100.50" width="162.00" height="204.00" rx="4" fill="url(#linen)"/>
+<rect x="-75.00" y="-94.50" width="66.30" height="40.85" rx="5" fill="#fffdf5"/>
+<rect x="5.10" y="-94.50" width="66.30" height="40.85" rx="5" fill="#fffdf5"/>
+<rect x="-80.00" y="-25.80" width="160.00" height="107.50" rx="3" fill="#e5dfd4"/>
+<path d="M-75.0 -15.049999999999997H75.0" stroke="#f5f0e8" stroke-width="3"/>
+</g>
+<g transform="translate(1040.0 625.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Ванна Oval</title>
+<rect x="-40.00" y="-85.00" width="80.00" height="170.00" rx="24.0" fill="#f8f7ee"/>
+<rect x="-33.00" y="-76.00" width="66.00" height="152.00" rx="24.0" fill="#dce7e3"/>
+<ellipse cx="0.00" cy="42.50" rx="2.00" ry="2.00" fill="#8a9d98"/>
+</g>
+<g transform="translate(350.0 380.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Стол Arc</title>
+<rect x="-70.00" y="-42.50" width="140.00" height="85.00" rx="17.0" fill="#cba276"/>
+<ellipse cx="-30.80" cy="-10.20" rx="12.60" ry="12.60" fill="#f6f3e8"/>
+<ellipse cx="28.00" cy="6.80" rx="14.00" ry="14.00" fill="#7b936f"/>
+</g>
+<g transform="translate(920.0 575.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Унитаз Compact</title>
+<rect x="-20.00" y="-32.50" width="40.00" height="16.25" rx="4" fill="#f8f7f1"/>
+<ellipse cx="0.00" cy="6.50" rx="19.20" ry="24.05" fill="#fcfbf7"/>
+<ellipse cx="0.00" cy="6.50" rx="11.60" ry="14.95" fill="#dfe6e2"/>
+</g>
+<g transform="translate(380.0 715.0) rotate(-180.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Кресло Shell</title>
+<rect x="-40.00" y="-40.00" width="80.00" height="80.00" rx="8" fill="#c19b78"/>
+<rect x="-33.00" y="-33.00" width="66.00" height="17.60" rx="5" fill="#c19b78"/>
+<rect x="-30.00" y="-12.80" width="58.00" height="44.00" rx="5" fill="#c19b78"/>
+<rect x="-37.00" y="-32.00" width="8.00" height="67.00" rx="4" fill="#c19b78"/>
+<rect x="29.00" y="-32.00" width="8.00" height="67.00" rx="4" fill="#c19b78"/>
+</g>
+<g transform="translate(255.0 380.0) rotate(-90.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Стул Wish</title>
+<rect x="-23.00" y="-25.00" width="46.00" height="50.00" rx="6" fill="#b99b78"/>
+<rect x="-20.00" y="-23.00" width="40.00" height="9.00" rx="3" fill="#b99b78"/>
+<rect x="-19.00" y="-10.00" width="38.00" height="30.00" rx="4" fill="#b99b78"/>
+</g>
+<g transform="translate(445.0 380.0) rotate(90.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Стул Wish</title>
+<rect x="-23.00" y="-25.00" width="46.00" height="50.00" rx="6" fill="#b99b78"/>
+<rect x="-20.00" y="-23.00" width="40.00" height="9.00" rx="3" fill="#b99b78"/>
+<rect x="-19.00" y="-10.00" width="38.00" height="30.00" rx="4" fill="#b99b78"/>
+</g>
+<g transform="translate(350.0 450.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Стул Wish</title>
+<rect x="-23.00" y="-25.00" width="46.00" height="50.00" rx="6" fill="#b99b78"/>
+<rect x="-20.00" y="-23.00" width="40.00" height="9.00" rx="3" fill="#b99b78"/>
+<rect x="-19.00" y="-10.00" width="38.00" height="30.00" rx="4" fill="#b99b78"/>
+</g>
+<g transform="translate(200 605.0) rotate(-90.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Диван Linen</title>
+<rect x="-112.50" y="-45.00" width="225.00" height="90.00" rx="8" fill="#d4c6ae"/>
+<rect x="-105.50" y="-38.00" width="211.00" height="19.80" rx="5" fill="#d4c6ae"/>
+<rect x="-102.50" y="-14.40" width="67.67" height="49.50" rx="5" fill="#d4c6ae"/>
+<rect x="-34.17" y="-14.40" width="67.67" height="49.50" rx="5" fill="#d4c6ae"/>
+<rect x="34.17" y="-14.40" width="67.67" height="49.50" rx="5" fill="#d4c6ae"/>
+<rect x="-109.50" y="-37.00" width="8.00" height="77.00" rx="4" fill="#d4c6ae"/>
+<rect x="101.50" y="-37.00" width="8.00" height="77.00" rx="4" fill="#d4c6ae"/>
+</g>
+<g transform="translate(955.0 802.0) rotate(-180.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Раковина Bath</title>
+<rect x="-32.50" y="-25.00" width="65.00" height="50.00" rx="2" fill="#f3f2ec"/>
+<rect x="-20.80" y="-16.50" width="41.60" height="33.00" rx="8" fill="#e4e9e5"/>
+<ellipse cx="0.00" cy="0.00" rx="2.00" ry="2.00" fill="#7a8985"/>
+<path d="M0 -23.0v10" stroke="#798a87" stroke-width="4"/>
+</g>
+<g transform="translate(240.0 230.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Мойка Kitchen</title>
+<rect x="-40.00" y="-30.00" width="80.00" height="60.00" rx="2" fill="#d6d4cc"/>
+<rect x="-25.60" y="-19.80" width="51.20" height="39.60" rx="8" fill="#e4e9e5"/>
+<ellipse cx="0.00" cy="0.00" rx="2.00" ry="2.00" fill="#7a8985"/>
+<path d="M0 -28.0v10" stroke="#798a87" stroke-width="4"/>
+</g>
+<g transform="translate(315.0 230.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Модуль с плитой</title>
+<rect x="-30.00" y="-30.00" width="60.00" height="60.00" rx="2" fill="#d4d0c5"/>
+<rect x="-25.00" y="-25.00" width="50.00" height="50.00" rx="2" fill="#414c49"/>
+<ellipse cx="-13.80" cy="-13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+<ellipse cx="-13.80" cy="13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+<ellipse cx="13.80" cy="-13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+<ellipse cx="13.80" cy="13.80" rx="7.80" ry="7.80" fill="#59635e"/>
+</g>
+<g transform="translate(730.0 455.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Монстера</title>
+<ellipse cx="0.00" cy="0.00" rx="22.40" ry="22.40" fill="#c4b39b"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(0)" fill="#6d8c62" stroke="#527458"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(45)" fill="#6d8c62" stroke="#527458"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(90)" fill="#6d8c62" stroke="#527458"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(135)" fill="#6d8c62" stroke="#527458"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(180)" fill="#6d8c62" stroke="#527458"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(225)" fill="#6d8c62" stroke="#527458"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(270)" fill="#6d8c62" stroke="#527458"/>
+<ellipse cx="0" cy="-14.00" rx="11.90" ry="21.00" transform="rotate(315)" fill="#6d8c62" stroke="#527458"/>
+</g>
+<g transform="translate(155.0 770.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Фикус</title>
+<ellipse cx="0.00" cy="0.00" rx="17.60" ry="17.60" fill="#c4b39b"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(0)" fill="#548365" stroke="#527458"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(45)" fill="#548365" stroke="#527458"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(90)" fill="#548365" stroke="#527458"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(135)" fill="#548365" stroke="#527458"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(180)" fill="#548365" stroke="#527458"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(225)" fill="#548365" stroke="#527458"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(270)" fill="#548365" stroke="#527458"/>
+<ellipse cx="0" cy="-11.00" rx="9.35" ry="16.50" transform="rotate(315)" fill="#548365" stroke="#527458"/>
+</g>
+<g transform="translate(155.0 240.0) rotate(0.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Холодильник Tall</title>
+<rect x="-32.50" y="-32.50" width="65.00" height="65.00" rx="2" fill="#c3c9c7"/>
+</g>
+<g transform="translate(720.0 720.0) rotate(-90.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Шкаф Graphite</title>
+<rect x="-60.00" y="-30.00" width="120.00" height="60.00" rx="2" fill="#666e70"/>
+<path d="M0 -30.0V30.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<g transform="translate(1065.0 370.0) rotate(-90.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Шкаф Birch</title>
+<rect x="-90.00" y="-30.00" width="180.00" height="60.00" rx="2" fill="#e7dfcf"/>
+<path d="M0 -30.0V30.0" stroke="#918777"/><path d="M-4 -4v8M4 -4v8" stroke="#6b7166" stroke-width="1.5"/>
+</g>
+<g transform="translate(642.0 610.0) rotate(-90.00)" stroke="#5b675d" stroke-width=".8" filter="url(#shadow)"><title>Экран 55</title>
+<rect x="-61.50" y="-5.00" width="123.00" height="10.00" rx="1" fill="#253632"/>
+</g>
+<path d="M100 190L1100 190" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M1100 190L1100 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M1100 840.0L700 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M600 840.0L100 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M100 840.0L100 190" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 190L680.0 545.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 640.0L680.0 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 515.0L745.0 515.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M840.0 515.0L1100 515.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M870.0 515.0L870.0 655.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M870.0 745.0L870.0 840.0" stroke="#34483e" stroke-width="16.00" stroke-linecap="square"/>
+<path d="M680.0 545.0L585.0 545.0 M585.0 545.0A95.00000000000001 95.00000000000001 0 0 0 680.0 640.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M745.0 515.0L745.0 610.0 M745.0 610.0A95.00000000000001 95.00000000000001 0 0 0 840.0 515.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M870.0 655.0L780.0 655.0 M780.0 655.0A89.99999999999994 89.99999999999994 0 0 0 870.0 745.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M600 840.0L600.0 940.0 M600.0 940.0A100.0 100.0 0 0 0 700 840.0" fill="none" stroke="#7b8f80" stroke-width="1.2"/>
+<path d="M190.0 190L580.0 190" stroke="#eaf1ed" stroke-width="13.0"/><path d="M190.0 190L580.0 190" stroke="#8ca8a0" stroke-width="1.5"/>
+<path d="M760.0 190L1030.0 190" stroke="#eaf1ed" stroke-width="13.0"/><path d="M760.0 190L1030.0 190" stroke="#8ca8a0" stroke-width="1.5"/>
+<path d="M100 490L100 740.0" stroke="#eaf1ed" stroke-width="13.0"/><path d="M100 490L100 740.0" stroke="#8ca8a0" stroke-width="1.5"/>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="332.6" y="786.0" width="114.79999999999998" height="39" rx="5" fill="#faf9f3" fill-opacity=".87"/><text x="390.0" y="802.0" font-size="12" font-weight="600" fill="#344d3f">Кухня-гостиная</text><text x="390.0" y="817.0" font-size="10" fill="#738071">37.7 м²</text></g>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="861.3" y="461.0" width="57.39999999999999" height="39" rx="5" fill="#faf9f3" fill-opacity=".87"/><text x="890.0" y="477.0" font-size="12" font-weight="600" fill="#344d3f">Спальня</text><text x="890.0" y="492.0" font-size="10" fill="#738071">13.7 м²</text></g>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="742.2" y="786.0" width="65.6" height="39" rx="5" fill="#faf9f3" fill-opacity=".87"/><text x="775.0" y="802.0" font-size="12" font-weight="600" fill="#344d3f">Прихожая</text><text x="775.0" y="817.0" font-size="10" fill="#738071">6.2 м²</text></g>
+<g font-family="Arial,sans-serif" text-anchor="middle"><rect x="960.4" y="786.0" width="49.199999999999996" height="39" rx="5" fill="#faf9f3" fill-opacity=".87"/><text x="985.0" y="802.0" font-size="12" font-weight="600" fill="#344d3f">Ванная</text><text x="985.0" y="817.0" font-size="10" fill="#738071">7.5 м²</text></g>
+<path d="M100 875.0H1100M100 869.0v12M1100 869.0v12" stroke="#8c9a8b" fill="none"/>
+<text x="600.0" y="894.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#5d7263">10.00 м</text>
+<path d="M60 922.0h100.0" stroke="#476653" stroke-width="3"/><text x="60" y="912.0" font-family="Arial,sans-serif" font-size="11" fill="#607664">1 метр</text>
+<text x="1140" y="938.0" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#7b867b">Концепция интерьера · Размеры требуют проверки на объекте</text>
+</svg>

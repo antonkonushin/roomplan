@@ -1,0 +1,22 @@
+{
+  "binary_files_byte_identical": [
+    "sources/000-two-room-plan.png",
+    "sources/001-synthetic-walkthrough.mp4",
+    "assets/000-wide-test-object.glb",
+    "assets/001-research-layers.json",
+    "README.txt"
+  ],
+  "research_visibility": [
+    [
+      "qa-observations",
+      true
+    ],
+    [
+      "qa-wall-hypothesis",
+      false
+    ]
+  ],
+  "object_count": 25,
+  "assets": 2,
+  "sources": 2
+}

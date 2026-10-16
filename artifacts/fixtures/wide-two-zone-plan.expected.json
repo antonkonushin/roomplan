@@ -1,0 +1,12 @@
+{
+  "sourcePixels": [
+    880,
+    560
+  ],
+  "wallSegments": 6,
+  "widthMeters": 9,
+  "depthMeters": 5,
+  "ceilingHeight": 2.9,
+  "doorGapMeters": 1,
+  "layout": "Wide rectangle, partition at two-thirds width with one central door gap"
+}

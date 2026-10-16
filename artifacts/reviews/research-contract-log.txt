@@ -1,0 +1,280 @@
+{
+  "scope": "Direct production Python validator/storage. No browser claims.",
+  "results": [
+    {
+      "name": "Valid two-layer project does not mutate",
+      "status": "PASS",
+      "detail": 2
+    },
+    {
+      "name": "Reject version case 1",
+      "status": "PASS",
+      "detail": "researchLayers: поддерживается версия слоя 1"
+    },
+    {
+      "name": "Reject version case 2",
+      "status": "PASS",
+      "detail": "researchLayers: поддерживается версия слоя 1"
+    },
+    {
+      "name": "Reject version case 3",
+      "status": "PASS",
+      "detail": "researchLayers: поддерживается версия слоя 1"
+    },
+    {
+      "name": "Reject id case 1",
+      "status": "PASS",
+      "detail": "researchLayers: требуются уникальные непустые строковые id"
+    },
+    {
+      "name": "Reject id case 2",
+      "status": "PASS",
+      "detail": "researchLayers: требуются уникальные непустые строковые id"
+    },
+    {
+      "name": "Reject name case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: требуется непустое имя до 200 символов"
+    },
+    {
+      "name": "Reject name case 2",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: требуется непустое имя до 200 символов"
+    },
+    {
+      "name": "Reject kind case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: неизвестный kind; поддерживаются points и lines"
+    },
+    {
+      "name": "Reject visible case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: visible должен быть boolean"
+    },
+    {
+      "name": "Reject visible case 2",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: visible должен быть boolean"
+    },
+    {
+      "name": "Reject units case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: нужны units=m и coordinateFrame=project-x-y-z; преобразуйте данные явно"
+    },
+    {
+      "name": "Reject coordinateFrame case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: нужны units=m и coordinateFrame=project-x-y-z; преобразуйте данные явно"
+    },
+    {
+      "name": "Reject color case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: color должен быть #RRGGBB"
+    },
+    {
+      "name": "Reject color case 2",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: color должен быть #RRGGBB"
+    },
+    {
+      "name": "Reject positions case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: требуется 1…100000 позиций"
+    },
+    {
+      "name": "Reject positions case 2",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: позиция должна содержать три конечные координаты в пределах ±1000 м"
+    },
+    {
+      "name": "Reject positions case 3",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: позиция должна содержать три конечные координаты в пределах ±1000 м"
+    },
+    {
+      "name": "Reject positions case 4",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: позиция должна содержать три конечные координаты в пределах ±1000 м"
+    },
+    {
+      "name": "Reject positions case 5",
+      "status": "PASS",
+      "detail": "Неконечное число в проекте"
+    },
+    {
+      "name": "Reject positions case 6",
+      "status": "PASS",
+      "detail": "Неконечное число в проекте"
+    },
+    {
+      "name": "Reject sourceIds case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: sourceIds должен ссылаться на существующие файлы проекта"
+    },
+    {
+      "name": "Reject sourceIds case 2",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: sourceIds должен ссылаться на существующие файлы проекта"
+    },
+    {
+      "name": "Reject assetIds case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: assetIds должен ссылаться на существующие файлы проекта"
+    },
+    {
+      "name": "Reject provenance case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: provenance должен быть объектом"
+    },
+    {
+      "name": "Reject segments case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: слой points не должен содержать отрезки"
+    },
+    {
+      "name": "Reject line segments case 1",
+      "status": "PASS",
+      "detail": "researchLayers[qa-wall-hypothesis]: lines требует явный непустой массив segments"
+    },
+    {
+      "name": "Reject line segments case 2",
+      "status": "PASS",
+      "detail": "researchLayers[qa-wall-hypothesis]: отрезок задаётся двумя различными индексами positions"
+    },
+    {
+      "name": "Reject line segments case 3",
+      "status": "PASS",
+      "detail": "researchLayers[qa-wall-hypothesis]: отрезок задаётся двумя различными индексами positions"
+    },
+    {
+      "name": "Reject line segments case 4",
+      "status": "PASS",
+      "detail": "researchLayers[qa-wall-hypothesis]: отрезок задаётся двумя различными индексами positions"
+    },
+    {
+      "name": "Reject line segments case 5",
+      "status": "PASS",
+      "detail": "researchLayers[qa-wall-hypothesis]: отрезок задаётся двумя различными индексами positions"
+    },
+    {
+      "name": "Reject line segments case 6",
+      "status": "PASS",
+      "detail": "researchLayers[qa-wall-hypothesis]: отрезок задаётся двумя различными индексами positions"
+    },
+    {
+      "name": "Reject duplicate layer ID",
+      "status": "PASS",
+      "detail": "researchLayers: требуются уникальные непустые строковые id"
+    },
+    {
+      "name": "Reject duplicate existing source references",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: повторяющиеся ссылки sourceIds"
+    },
+    {
+      "name": "Reject duplicate existing asset references",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: повторяющиеся ссылки assetIds"
+    },
+    {
+      "name": "Reject nonobject layer",
+      "status": "PASS",
+      "detail": "researchLayers: слой должен быть объектом"
+    },
+    {
+      "name": "Reject excessive layers",
+      "status": "PASS",
+      "detail": "researchLayers: требуется массив, максимум 64 слоя"
+    },
+    {
+      "name": "Reject excessive layer points",
+      "status": "PASS",
+      "detail": "researchLayers[qa-observations]: требуется 1…100000 позиций"
+    },
+    {
+      "name": "Reject total point budget",
+      "status": "PASS",
+      "detail": "researchLayers: суммарно допускается 200000 позиций"
+    },
+    {
+      "name": "Complete project data roundtrip after visibility and provenance edits",
+      "status": "PASS",
+      "detail": {
+        "sources": 2,
+        "assets": 2,
+        "layers": 2
+      }
+    },
+    {
+      "name": "Archive exact bytes two-room-plan.png",
+      "status": "PASS",
+      "detail": {
+        "bytes": 3937,
+        "sha256": "d03cc8399f49e25e8afa40f4dc5be3c11d41bf0bc67f5b20d5953350a01a63da"
+      }
+    },
+    {
+      "name": "Archive equals original fixture two-room-plan.png",
+      "status": "PASS",
+      "detail": "artifacts\\fixtures\\two-room-plan.png"
+    },
+    {
+      "name": "Archive exact bytes synthetic-walkthrough.mp4",
+      "status": "PASS",
+      "detail": {
+        "bytes": 49176,
+        "sha256": "ad97a3993027c530f30d77b9e2dc7ff13e6fd878ef3c0009ec84a25fc0ff7239"
+      }
+    },
+    {
+      "name": "Archive equals original fixture synthetic-walkthrough.mp4",
+      "status": "PASS",
+      "detail": "artifacts\\fixtures\\synthetic-walkthrough.mp4"
+    },
+    {
+      "name": "Archive exact bytes wide-test-object.glb",
+      "status": "PASS",
+      "detail": {
+        "bytes": 988,
+        "sha256": "e79fe7558c2f8ccaa71efb33518042ab8f76a79ed28e240c7552f331cb2de282"
+      }
+    },
+    {
+      "name": "Archive equals original fixture wide-test-object.glb",
+      "status": "PASS",
+      "detail": "artifacts\\fixtures\\wide-test-object.glb"
+    },
+    {
+      "name": "Archive exact bytes research-layers.json",
+      "status": "PASS",
+      "detail": {
+        "bytes": 1858,
+        "sha256": "08abb816cfed3c5c710a606b9791a75bf1a54dab1e811e22f65fe2f6abf0c6db"
+      }
+    },
+    {
+      "name": "Archive equals original fixture research-layers.json",
+      "status": "PASS",
+      "detail": "artifacts\\fixtures\\research-layers.json"
+    },
+    {
+      "name": "HTTP import same portable project",
+      "status": "PASS",
+      "detail": {
+        "status": 200,
+        "mime": "application/json"
+      }
+    },
+    {
+      "name": "HTTP invalid segment yields actionable JSON",
+      "status": "PASS",
+      "detail": {
+        "status": 400,
+        "mime": "application/json",
+        "response": {
+          "error": "researchLayers[qa-wall-hypothesis]: отрезок задаётся двумя различными индексами positions"
+        }
+      }
+    }
+  ]
+}

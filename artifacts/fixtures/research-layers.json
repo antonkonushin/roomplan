@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "researchLayers": [
+    {
+      "version": 1,
+      "id": "qa-observations",
+      "name": "Synthetic sparse observations",
+      "kind": "points",
+      "visible": true,
+      "units": "m",
+      "coordinateFrame": "project-x-y-z",
+      "positions": [
+        [
+          1.4,
+          0.2,
+          3
+        ],
+        [
+          1.6,
+          0.4,
+          3
+        ],
+        [
+          1.8,
+          0.6,
+          3
+        ],
+        [
+          2,
+          0.8,
+          3
+        ],
+        [
+          2.2,
+          1,
+          3
+        ],
+        [
+          2.4,
+          1.2,
+          3
+        ]
+      ],
+      "color": "#d94d7d",
+      "sourceIds": [],
+      "assetIds": [],
+      "provenance": {
+        "method": "deterministic-qa-fixture",
+        "isSynthetic": true,
+        "inputUsedForGeometry": false
+      }
+    },
+    {
+      "version": 1,
+      "id": "qa-wall-hypothesis",
+      "name": "Synthetic wall hypothesis",
+      "kind": "lines",
+      "visible": true,
+      "units": "m",
+      "coordinateFrame": "project-x-y-z",
+      "positions": [
+        [
+          3,
+          0.15,
+          3.5
+        ],
+        [
+          4.4,
+          0.15,
+          3.5
+        ],
+        [
+          4.4,
+          1.7,
+          3.5
+        ],
+        [
+          3,
+          1.7,
+          3.5
+        ]
+      ],
+      "segments": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "color": "#126fd6",
+      "sourceIds": [],
+      "assetIds": [],
+      "provenance": {
+        "method": "deterministic-qa-fixture",
+        "isSynthetic": true,
+        "inputUsedForGeometry": false
+      }
+    }
+  ]
+}

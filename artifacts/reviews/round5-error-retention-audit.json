@@ -1,0 +1,24 @@
+{
+  "archives": [
+    "artifacts/reviews/round5-second-plan.zip",
+    "artifacts/reviews/round5-after-errors.zip"
+  ],
+  "sameEntries": true,
+  "comparisons": [
+    {
+      "entry": "sources/000-wide-two-zone-plan.png",
+      "equal": true,
+      "sha256": "4f761a35c2aec3198af33c787ed3621eb19c30b9d6fd8825ba25f718bc73f14d"
+    },
+    {
+      "entry": "project.json",
+      "equal": true,
+      "sha256": "77ce2fcd5f08be1777af847252a97c02aa434d5425f94971f6ef9f924c8b4595"
+    },
+    {
+      "entry": "README.txt",
+      "equal": true,
+      "sha256": "56a178b8b35081deb71b9ec76860b3c4d1202b7700b9c08fe48083503f631a90"
+    }
+  ]
+}

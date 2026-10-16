@@ -1,0 +1,709 @@
+{
+  "at": "2026-10-15T20:52:54.549Z",
+  "scope": "Executed production app.js handlers and production RoomScene camera math in Node VM; minimal DOM and no GPU rendering. No browser UI/picking/media playback claim.",
+  "sourceSHA256": {
+    "web/app.js": "4427424b2d8652e1ed7bf5442eaa390e0dd437e54c9b5d91c5fab767596769ef",
+    "web/scene.js": "f737f0efe2f082c22bd32b76fc2965759c422d66e84402b59cd781d2772eb5a1",
+    "web/editing.js": "d0e10fb6f5e127ec85db5b7ce869517de32cd8f35549f896ddddd6e0ef7497c8",
+    "roomplan/model.py": "ee41fb92d24d9b2bae1e5950ec22ad5f5b83525e9596edab826ecd0e1d1d4f79",
+    "roomplan/reconstruction.py": "8ad216ea1e6726a89a68a8abaca45324fb8692349b36eede47be9759bb24405e"
+  },
+  "results": [
+    {
+      "name": "Floor object numeric Y edit",
+      "expected": "Y remains 0",
+      "observed": [
+        2.4,
+        0,
+        4.2
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Surface object numeric X edit",
+      "expected": "TV remains within support footprint",
+      "observed": {
+        "tv": {
+          "id": "o6",
+          "catalogId": "tv-1",
+          "name": "Экран 55",
+          "kind": "tv",
+          "position": [
+            5.57,
+            0.48,
+            5.3999999999999995
+          ],
+          "rotation": 1.5707963267948966,
+          "size": [
+            1.23,
+            0.72,
+            0.1
+          ],
+          "color": "#283539",
+          "mount": "surface",
+          "supportId": "o5"
+        },
+        "support": {
+          "id": "o5",
+          "catalogId": "cabinet-1",
+          "name": "Тумба Linear",
+          "kind": "cabinet",
+          "position": [
+            5.42,
+            0,
+            5.4
+          ],
+          "rotation": 1.5707963267948966,
+          "size": [
+            1.8,
+            0.48,
+            0.4
+          ],
+          "color": "#b69b7a",
+          "mount": "floor"
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Change to wall mount then numeric X edit",
+      "expected": "Wall mounted object stays on a wall and drops surface link",
+      "observed": {
+        "id": "o6",
+        "catalogId": "tv-1",
+        "name": "Экран 55",
+        "kind": "tv",
+        "position": [
+          10.13,
+          0.48,
+          5.4
+        ],
+        "rotation": 1.5707963267948966,
+        "size": [
+          1.23,
+          0.72,
+          0.1
+        ],
+        "color": "#283539",
+        "mount": "wall",
+        "wallId": "w2"
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Shrink parent under supported object",
+      "expected": "Reject resize or restore valid child footprint",
+      "observed": {
+        "parentSize": [
+          1.8,
+          0.48,
+          0.4
+        ],
+        "childSize": [
+          1.23,
+          0.72,
+          0.1
+        ],
+        "childPosition": [
+          5.42,
+          0.48,
+          5.4
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Add surface object with no supports",
+      "expected": "Reject or require support",
+      "observed": {
+        "rejected": true,
+        "toast": "Нет подходящей опоры. Сначала добавьте тумбу или стол подходящего размера."
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Demo exact shared wall endpoints",
+      "expected": "Connected endpoints follow resized joint",
+      "observed": {
+        "newEnd": [
+          11,
+          0
+        ],
+        "joined": [
+          {
+            "id": "w2",
+            "a": [
+              11,
+              0
+            ],
+            "b": [
+              10,
+              6.5
+            ],
+            "height": 2.8,
+            "thickness": 0.16
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Demo T-joints after outer wall resize",
+      "expected": "Existing endpoint-to-interior wall junctions remain joined",
+      "observed": [
+        {
+          "wall": "w6",
+          "key": "a",
+          "support": "w1",
+          "t": 0.58,
+          "distance": 0
+        },
+        {
+          "wall": "w8",
+          "key": "a",
+          "support": "w6",
+          "t": 0.9154929577464789,
+          "distance": 3.3306690738754696e-16
+        },
+        {
+          "wall": "w9",
+          "key": "b",
+          "support": "w2",
+          "t": 0.5,
+          "distance": 0
+        },
+        {
+          "wall": "w10",
+          "key": "a",
+          "support": "w9",
+          "t": 0.11538461538461527,
+          "distance": 0
+        },
+        {
+          "wall": "w11",
+          "key": "b",
+          "support": "w3",
+          "t": 0.575,
+          "distance": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Imported plan wall length vs room polygons",
+      "expected": "Recognized room boundaries track wall edit",
+      "observed": {
+        "wallId": "w1",
+        "oldEnd": [
+          7.9361,
+          0.0639
+        ],
+        "newEnd": [
+          8.9361,
+          0.0639
+        ],
+        "before": [
+          {
+            "id": "r1",
+            "name": "Область плана · проверить",
+            "polygon": [
+              [
+                0.0627,
+                0.0639
+              ],
+              [
+                7.9361,
+                0.0639
+              ],
+              [
+                7.9361,
+                5.9518
+              ],
+              [
+                0.0627,
+                5.9518
+              ]
+            ],
+            "color": "#e8decd"
+          }
+        ],
+        "after": [
+          {
+            "id": "r1",
+            "name": "Область плана · проверить",
+            "polygon": [
+              [
+                0.0627,
+                0.0639
+              ],
+              [
+                8.9361,
+                0.0639
+              ],
+              [
+                7.9361,
+                5.9518
+              ],
+              [
+                0.0627,
+                5.9518
+              ]
+            ],
+            "color": "#e8decd"
+          }
+        ],
+        "walls": [
+          {
+            "id": "w1",
+            "a": [
+              0.0627,
+              0.0639
+            ],
+            "b": [
+              8.9361,
+              0.0639
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w2",
+            "a": [
+              4.2009,
+              3.4059
+            ],
+            "b": [
+              5.5707,
+              3.4059
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w3",
+            "a": [
+              6.4582,
+              3.4059
+            ],
+            "b": [
+              8.368495251278045,
+              3.4059
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w4",
+            "a": [
+              0.0627,
+              5.9518
+            ],
+            "b": [
+              7.9361,
+              5.9518
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w5",
+            "a": [
+              0.0627,
+              0.0639
+            ],
+            "b": [
+              0.0627,
+              5.9518
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w6",
+            "a": [
+              4.726492501333604,
+              0.0639
+            ],
+            "b": [
+              4.2009,
+              2.1218
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w7",
+            "a": [
+              4.2009,
+              3.0092
+            ],
+            "b": [
+              4.2009,
+              5.9518
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w8",
+            "a": [
+              8.9361,
+              0.0639
+            ],
+            "b": [
+              7.9361,
+              5.9518
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Imported T-joints after outer wall resize",
+      "expected": "Existing endpoint-to-interior wall junctions remain joined",
+      "observed": [
+        {
+          "wall": "w2",
+          "key": "a",
+          "support": "w7",
+          "t": 0.13481275062869572,
+          "distance": 5.551115123125783e-17
+        },
+        {
+          "wall": "w3",
+          "key": "b",
+          "support": "w8",
+          "t": 0.5676047487219552,
+          "distance": 3.3306690738754696e-16
+        },
+        {
+          "wall": "w6",
+          "key": "a",
+          "support": "w1",
+          "t": 0.5255925013336041,
+          "distance": 8.881784197001252e-16
+        },
+        {
+          "wall": "w7",
+          "key": "b",
+          "support": "w4",
+          "t": 0.5255925013336042,
+          "distance": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "No-op constrained edit undo history",
+      "expected": "No extra undo entry",
+      "observed": {
+        "before": 5,
+        "after": 5
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Rejected undersized-support undo history",
+      "expected": "No extra undo entry",
+      "observed": {
+        "before": 5,
+        "after": 5
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Move and raise support propagates child",
+      "expected": "TV moves .5m in X and sits at new .7m support top",
+      "observed": {
+        "parent": {
+          "id": "o5",
+          "catalogId": "cabinet-1",
+          "name": "Тумба Linear",
+          "kind": "cabinet",
+          "position": [
+            5.92,
+            0,
+            5.4
+          ],
+          "rotation": 1.5707963267948966,
+          "size": [
+            1.8,
+            0.7,
+            0.4
+          ],
+          "color": "#b69b7a",
+          "mount": "floor"
+        },
+        "child": {
+          "id": "o6",
+          "catalogId": "tv-1",
+          "name": "Экран 55",
+          "kind": "tv",
+          "position": [
+            5.92,
+            0.7,
+            5.4
+          ],
+          "rotation": 1.5707963267948966,
+          "size": [
+            1.23,
+            0.72,
+            0.1
+          ],
+          "color": "#283539",
+          "mount": "surface",
+          "supportId": "o5"
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "2D panned camera save/load",
+      "expected": "Same camera position, target and zoom",
+      "observed": {
+        "beforeCamera": {
+          "position": [
+            7,
+            25,
+            4.25100000004197
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1.7
+        },
+        "afterCamera": {
+          "position": [
+            7,
+            25,
+            4.25100000004197
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1.7
+        },
+        "savedSettings": {
+          "cutaway": true,
+          "dimensions": true,
+          "roomLabels": true,
+          "light": 1.1,
+          "view": "2d",
+          "camera": {
+            "position": [
+              13.84,
+              11.559999999999999,
+              14.809999999999999
+            ],
+            "target": [
+              5,
+              0,
+              3.25
+            ]
+          },
+          "cameraFov": 50,
+          "orthoCamera": {
+            "position": [
+              5,
+              25,
+              3.2510000000419703
+            ],
+            "target": [
+              5,
+              0,
+              3.25
+            ]
+          },
+          "orthoZoom": 1.7,
+          "walkPath": []
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Drag TV to cabinet with different rotation",
+      "expected": "Child rotated footprint fits final support; otherwise transfer rejected",
+      "observed": {
+        "tvPosition": [
+          5.42,
+          0.48,
+          5.4
+        ],
+        "tvRotation": 1.5707963267948966,
+        "supportId": "o5",
+        "parentRotation": 1.5707963267948966,
+        "footW": 1.23,
+        "footD": 0.1,
+        "supportSize": [
+          1.8,
+          0.48,
+          0.4
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Configured eye-level camera path crosses wall",
+      "expected": "Indoor route avoids solid walls or warns",
+      "observed": {
+        "route": [
+          {
+            "position": [
+              2,
+              1.6,
+              2
+            ],
+            "target": [
+              8,
+              1.6,
+              2
+            ]
+          },
+          {
+            "position": [
+              8,
+              1.6,
+              2
+            ],
+            "target": [
+              9,
+              1.6,
+              2
+            ]
+          }
+        ],
+        "routeWarning": "Маршрут проходит через стену. Добавьте промежуточные точки в дверном проёме или поднимите камеру над стенами.",
+        "solidSamples": [],
+        "sampleCount": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Default path altitude",
+      "expected": "Record route character, not an indoor walkthrough guarantee",
+      "observed": {
+        "positions": [
+          [
+            2,
+            3,
+            8.25
+          ],
+          [
+            8,
+            3,
+            8.25
+          ],
+          [
+            10,
+            4,
+            1.25
+          ],
+          [
+            2,
+            4,
+            0.25
+          ]
+        ],
+        "ceilingHeight": 2.8
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Door-gap route is allowed",
+      "expected": "Valid route is not rejected",
+      "observed": {
+        "path": [
+          {
+            "position": [
+              5,
+              1.6,
+              4
+            ],
+            "target": [
+              6.5,
+              1.6,
+              4
+            ]
+          },
+          {
+            "position": [
+              6.5,
+              1.6,
+              4
+            ],
+            "target": [
+              7,
+              1.6,
+              4
+            ]
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Default overview route is allowed",
+      "expected": "Valid route is not rejected",
+      "observed": {
+        "path": [
+          {
+            "position": [
+              2,
+              3,
+              8.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          },
+          {
+            "position": [
+              8,
+              3,
+              8.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          },
+          {
+            "position": [
+              10,
+              4,
+              1.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          },
+          {
+            "position": [
+              2,
+              4,
+              0.25
+            ],
+            "target": [
+              5,
+              0.8,
+              3.25
+            ]
+          }
+        ]
+      },
+      "status": "PASS"
+    }
+  ]
+}

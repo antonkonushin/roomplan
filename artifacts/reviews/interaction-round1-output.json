@@ -1,0 +1,484 @@
+{
+  "at": "2026-10-15T20:47:28.139Z",
+  "scope": "Executed production app.js handlers and production RoomScene camera math in Node VM; minimal DOM and no GPU rendering. No browser UI/picking/media playback claim.",
+  "sourceSHA256": {
+    "web/app.js": "90462ee17934dc4ff69bc6540732ba88339e36136950d9d3c383548c121da1a8",
+    "web/scene.js": "b87c906dcf429eba657686a303fbe730b012c9a96b10074279443053247ca8c8"
+  },
+  "results": [
+    {
+      "name": "Floor object numeric Y edit",
+      "expected": "Y remains 0",
+      "observed": [
+        2.4,
+        2,
+        4.2
+      ],
+      "status": "FAIL"
+    },
+    {
+      "name": "Surface object numeric X edit",
+      "expected": "TV remains within support footprint",
+      "observed": {
+        "tv": {
+          "id": "o6",
+          "catalogId": "tv-1",
+          "name": "Экран 55",
+          "kind": "tv",
+          "position": [
+            20,
+            0.48,
+            4.2
+          ],
+          "rotation": 1.5707963267948966,
+          "size": [
+            1.23,
+            0.72,
+            0.1
+          ],
+          "color": "#283539",
+          "mount": "surface",
+          "supportId": "o5"
+        },
+        "support": {
+          "id": "o5",
+          "catalogId": "cabinet-1",
+          "name": "Тумба Linear",
+          "kind": "cabinet",
+          "position": [
+            5.42,
+            0,
+            4.2
+          ],
+          "rotation": 1.5707963267948966,
+          "size": [
+            1.8,
+            0.48,
+            0.4
+          ],
+          "color": "#b69b7a",
+          "mount": "floor"
+        }
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "Change to wall mount then numeric X edit",
+      "expected": "Wall mounted object stays on a wall",
+      "observed": {
+        "id": "o6",
+        "catalogId": "tv-1",
+        "name": "Экран 55",
+        "kind": "tv",
+        "position": [
+          20,
+          0.48,
+          4.2
+        ],
+        "rotation": 1.5707963267948966,
+        "size": [
+          1.23,
+          0.72,
+          0.1
+        ],
+        "color": "#283539",
+        "mount": "wall",
+        "supportId": "o5"
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "Shrink parent under supported object",
+      "expected": "Reject resize or restore valid child footprint",
+      "observed": {
+        "parentSize": [
+          0.1,
+          0.48,
+          0.4
+        ],
+        "childSize": [
+          1.23,
+          0.72,
+          0.1
+        ],
+        "childPosition": [
+          5.42,
+          0.48,
+          4.2
+        ]
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "Add surface object with no supports",
+      "expected": "Reject or require support",
+      "observed": {
+        "id": "01803ea7-b4f2-48a7-ab43-cd52ed303fce",
+        "catalogId": "tv-1",
+        "name": "Экран 55",
+        "kind": "tv",
+        "size": [
+          1.23,
+          0.72,
+          0.1
+        ],
+        "color": "#283539",
+        "mount": "surface",
+        "position": [
+          5,
+          0,
+          3.25
+        ],
+        "rotation": 0
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "Demo exact shared wall endpoints",
+      "expected": "Connected endpoints follow resized joint",
+      "observed": {
+        "newEnd": [
+          11,
+          0
+        ],
+        "joined": [
+          {
+            "id": "w2",
+            "a": [
+              11,
+              0
+            ],
+            "b": [
+              10,
+              6.5
+            ],
+            "height": 2.8,
+            "thickness": 0.16
+          }
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Imported plan wall length vs room polygons",
+      "expected": "Recognized room boundaries track wall edit",
+      "observed": {
+        "wallId": "w1",
+        "oldEnd": [
+          7.9988,
+          0.0639
+        ],
+        "newEnd": [
+          8.9988,
+          0.0639
+        ],
+        "before": [
+          {
+            "id": "r1",
+            "name": "Область плана · проверить",
+            "polygon": [
+              [
+                0,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                8,
+                6.015665796344648
+              ],
+              [
+                0,
+                6.015665796344648
+              ]
+            ],
+            "color": "#e8decd"
+          }
+        ],
+        "after": [
+          {
+            "id": "r1",
+            "name": "Область плана · проверить",
+            "polygon": [
+              [
+                0,
+                0
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                8,
+                6.015665796344648
+              ],
+              [
+                0,
+                6.015665796344648
+              ]
+            ],
+            "color": "#e8decd"
+          }
+        ],
+        "walls": [
+          {
+            "id": "w1",
+            "a": [
+              0,
+              0.0639
+            ],
+            "b": [
+              8.9988,
+              0.0639
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w2",
+            "a": [
+              4.137,
+              3.4059
+            ],
+            "b": [
+              5.5707,
+              3.4059
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w3",
+            "a": [
+              6.4582,
+              3.4059
+            ],
+            "b": [
+              8,
+              3.4059
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w4",
+            "a": [
+              0,
+              5.9518
+            ],
+            "b": [
+              7.9988,
+              5.9518
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w5",
+            "a": [
+              0.0627,
+              0
+            ],
+            "b": [
+              0.0627,
+              6.0157
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w6",
+            "a": [
+              4.2009,
+              0
+            ],
+            "b": [
+              4.2009,
+              2.1218
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w7",
+            "a": [
+              4.2009,
+              3.0092
+            ],
+            "b": [
+              4.2009,
+              6.0157
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          },
+          {
+            "id": "w8",
+            "a": [
+              7.9361,
+              0.0074
+            ],
+            "b": [
+              7.9361,
+              6.0083
+            ],
+            "height": 2.7,
+            "thickness": 0.1376
+          }
+        ]
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "2D panned camera save/load",
+      "expected": "Same camera position, target and zoom",
+      "observed": {
+        "beforeCamera": {
+          "position": [
+            7,
+            25,
+            4.25100000004197
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1.7
+        },
+        "afterCamera": {
+          "position": [
+            5.0000000000000036,
+            25,
+            3.251000000041971
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1.7
+        },
+        "savedSettings": {
+          "cutaway": true,
+          "dimensions": true,
+          "roomLabels": true,
+          "light": 1.1,
+          "view": "2d",
+          "camera": {
+            "position": [
+              13.84,
+              11.559999999999999,
+              14.809999999999999
+            ],
+            "target": [
+              5,
+              0,
+              3.25
+            ]
+          },
+          "orthoZoom": 1.7,
+          "walkPath": []
+        }
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "Drag rotated TV on cabinet",
+      "expected": "Child rotated footprint fits support",
+      "observed": {
+        "tvPosition": [
+          5.4,
+          0.48,
+          4.2
+        ],
+        "tvRotation": 0,
+        "parentRotation": 1.5707963267948966,
+        "footW": 0.10000000000000007,
+        "footD": 1.23,
+        "supportSize": [
+          1.8,
+          0.48,
+          0.4
+        ]
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "Configured eye-level camera path crosses wall",
+      "expected": "Indoor route avoids solid walls or warns",
+      "observed": {
+        "route": [
+          {
+            "position": [
+              2,
+              1.6,
+              2
+            ],
+            "target": [
+              8,
+              1.6,
+              2
+            ]
+          },
+          {
+            "position": [
+              8,
+              1.6,
+              2
+            ],
+            "target": [
+              9,
+              1.6,
+              2
+            ]
+          }
+        ],
+        "solidSamples": [
+          {
+            "t": 0.7,
+            "position": [
+              5.821999999999999,
+              1.6,
+              2
+            ]
+          }
+        ],
+        "sampleCount": 41
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "Default path altitude",
+      "expected": "Record route character, not an indoor walkthrough guarantee",
+      "observed": {
+        "positions": [
+          [
+            2,
+            3,
+            8.25
+          ],
+          [
+            8,
+            3,
+            8.25
+          ],
+          [
+            10,
+            4,
+            1.25
+          ],
+          [
+            2,
+            4,
+            0.25
+          ]
+        ],
+        "ceilingHeight": 2.8
+      },
+      "status": "PASS"
+    }
+  ]
+}
