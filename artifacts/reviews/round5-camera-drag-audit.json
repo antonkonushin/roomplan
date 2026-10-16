@@ -1,0 +1,128 @@
+{
+  "cameraProjectDifferences": [
+    [
+      "/settings/camera/position/2",
+      11.257491594303511,
+      11.257491594303513,
+      1.7763568394002505e-15
+    ]
+  ],
+  "sameEntries": true,
+  "unchangedBinaryFiles": {
+    "sources/000-two-room-plan.png": true,
+    "sources/001-synthetic-walkthrough.mp4": true,
+    "assets/000-wide-test-object.glb": true,
+    "assets/001-research-layers.json": true,
+    "README.txt": true
+  },
+  "cameraSettings": {
+    "cutaway": true,
+    "dimensions": true,
+    "roomLabels": true,
+    "light": 1.1,
+    "view": "3d",
+    "camera": {
+      "position": [
+        6.952450323913856,
+        9.931988974455026,
+        11.257491594303511
+      ],
+      "target": [
+        5,
+        0,
+        3.25
+      ]
+    },
+    "cameraFov": 36,
+    "orthoCamera": {
+      "position": [
+        5,
+        25,
+        3.251
+      ],
+      "target": [
+        5,
+        0,
+        3.25
+      ]
+    },
+    "orthoZoom": 1,
+    "walkPath": [],
+    "walkPathMode": "custom"
+  },
+  "draggedObjects": [
+    {
+      "id": "o3",
+      "catalogId": "coffeeTable-1",
+      "name": "Стол Pebble",
+      "kind": "coffeeTable",
+      "position": [
+        3.65,
+        0,
+        4.3
+      ],
+      "rotation": 0,
+      "size": [
+        1.1,
+        0.38,
+        0.6
+      ],
+      "color": "#b78d65",
+      "mount": "floor"
+    },
+    {
+      "id": "o5",
+      "catalogId": "cabinet-1",
+      "name": "Тумба Linear",
+      "kind": "cabinet",
+      "position": [
+        5.42,
+        0,
+        5.4
+      ],
+      "rotation": 1.5707963267948966,
+      "size": [
+        1.8,
+        0.48,
+        0.4
+      ],
+      "color": "#b69b7a",
+      "mount": "floor"
+    },
+    {
+      "id": "o6",
+      "catalogId": "tv-1",
+      "name": "Экран 55",
+      "kind": "tv",
+      "position": [
+        5.67,
+        1.2,
+        5.6
+      ],
+      "rotation": -1.5707963267948966,
+      "size": [
+        1.23,
+        0.72,
+        0.1
+      ],
+      "color": "#283539",
+      "mount": "wall",
+      "wallId": "w7"
+    }
+  ],
+  "wall": {
+    "id": "w7",
+    "a": [
+      5.8,
+      4.5
+    ],
+    "b": [
+      5.8,
+      6.5
+    ],
+    "height": 2.8,
+    "thickness": 0.16
+  },
+  "wallTVFaceGapM": -1.1102230246251565e-16,
+  "supportIdRemoved": true
+}

@@ -74,6 +74,35 @@ def vector(value,n,label):
     if not isinstance(value,list) or len(value)!=n: raise ValueError(f'{label}: требуется {n} координат')
     for v in value: finite(v,label)
 
+def validate_settings(settings):
+    """Validate fields consumed by the viewer, retaining optional/extension data."""
+    if not isinstance(settings,dict): raise ValueError('settings: ожидается объект')
+    for field in ['cutaway','dimensions','roomLabels']:
+        if field in settings and not isinstance(settings[field],bool):
+            raise ValueError(f'settings.{field}: ожидается логическое значение')
+    for field,choices in [('view',('2d','3d')),('walkPathMode',('custom','overview','interior'))]:
+        if field in settings and settings[field] not in choices:
+            raise ValueError(f'settings.{field}: неизвестное значение')
+    if 'cameraFov' in settings:
+        fov=finite(settings['cameraFov'],'settings.cameraFov',0,180)
+        if not 0<fov<180: raise ValueError('settings.cameraFov: угол должен быть больше 0 и меньше 180')
+    # Broad bounds accommodate saved views beyond the UI slider's range while
+    # avoiding zero/negative scales and numerically unusable projections.
+    if 'orthoZoom' in settings: finite(settings['orthoZoom'],'settings.orthoZoom',1e-6,1e6)
+    if 'light' in settings: finite(settings['light'],'settings.light',1e-6,1000)
+    def camera_point(point,label):
+        if not isinstance(point,dict): raise ValueError(f'{label}: ожидается объект камеры')
+        vector(point.get('position'),3,f'{label}.position')
+        vector(point.get('target'),3,f'{label}.target')
+    for field in ['camera','orthoCamera']:
+        if field in settings: camera_point(settings[field],f'settings.{field}')
+    if 'walkPath' in settings:
+        path=settings['walkPath']
+        if not isinstance(path,list) or len(path)>2000: raise ValueError('settings.walkPath: требуется массив не более 2000 точек')
+        # Empty and single-point routes are valid drafts; recording validates
+        # the minimum point count and collisions separately.
+        for i,point in enumerate(path): camera_point(point,f'settings.walkPath[{i}]')
+
 def validate_files(files, max_files=100):
     if not isinstance(files,list) or len(files)>max_files: raise ValueError('Слишком много файлов')
     total=0
@@ -101,6 +130,7 @@ def validate_project(project):
         elif isinstance(value,list):
             for v in value: check_json(v,depth+1)
     check_json(p)
+    if 'settings' in p: validate_settings(p['settings'])
     if not isinstance(p.get('name'),str) or len(p['name'])>200: raise ValueError('Неверное название проекта')
     finite(p.get('ceilingHeight'),'Высота потолка',1.5,10)
     ids=set()

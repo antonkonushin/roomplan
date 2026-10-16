@@ -10,12 +10,12 @@ User goal: web application for apartment/room modelling, furniture planning and 
 5. Custom furniture from uploaded photographs; connect an existing single-image reconstruction method for baseline, future multi-view seam. Clearly distinguish unavailable inference from generated geometry. Do not pretend proxy meshes are AI reconstruction.
 6. Save/load a portable project on user's computer including all original images/videos and reconstructed/custom assets, preserving geometry and settings.
 7. Generate downloadable apartment walkthrough video using ordinary computer graphics; configurable camera path. Future generative video seam, not required now.
-8. Export an attractive furnished apartment plan suitable for property listings. Still image rendering should aspire to photorealism.
+8. Export an attractive furnished apartment plan suitable for property listings. Ordinary Three.js raster rendering is sufficient for stills and walkthroughs. Per user clarification on 2026-10-16, ray tracing and photorealism are outside this prototype; photorealism belongs to a future separate generative-model module.
 
 ## Quality loop
 Use fresh-context builder/critic agents for independently judgeable pieces. Critics inspect real running output and exports, compare with fixed Floorplanner references; anonymous randomized A/B where practical. Record biggest gap, iterate and retest integrated product. No false wins or arbitrary round cap. Maintain live /progress page with history, evidence, outstanding gaps and next actions.
 
-References: https://floorplanner.com/2d-floorplan-examples ; https://floorplanner.com/3d-floorplan-examples ; https://floorplanner.com/3d-render-examples . Freeze concrete examples before comparison. Functionality without reference counterpart is checked against this contract. Completion requires all mandatory scenarios and independently evidenced visual wins; partial completion must remain labelled partial.
+References: https://floorplanner.com/2d-floorplan-examples ; https://floorplanner.com/3d-floorplan-examples ; https://floorplanner.com/3d-render-examples . The dated user-scope amendment in quality-bar.md governs active comparisons: attractive listing plans and clear, coherent ordinary-CG views, without a photorealism gate. Functionality without a reference counterpart is checked against this contract. Completion requires all mandatory scenarios and independent checks within this scope; partial completion must remain labelled partial.
 
 ## Shared implementation interface (v1)
 This interface coordinates agents, not an immutable architecture.

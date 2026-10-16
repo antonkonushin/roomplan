@@ -1,5 +1,15 @@
 # Frozen visual acceptance bar
 
+## Active scope amendment — user instruction, 2026-10-16
+
+The user explicitly removed ray tracing and photorealism from the prototype: an ordinary Three.js walkthrough is sufficient; a separate generative-model module will supply photorealism later. This supersedes the original photorealistic interior gate below. It is a scope change requested by the user, not an inferred pass or a retroactive change to failed reviews.
+
+FP-2D-01 remains the concrete comparison for an attractive furnished listing plan. FP-DH-01 remains a reference for architectural integrity, recognizable furnishing, support, framing and readable depth in ordinary CG. The prototype need not match its physically realistic lighting/material fidelity. Interior stills and walkthroughs must faithfully show the current model at usable eye-level viewpoints, with complete geometry, readable surfaces, stable controls, no clipping and playable exports. FP-IN-01 remains a future generative-rendering reference, not a blocking prototype test.
+
+Critics continue inspecting real outputs, returning concrete functional or visual defects and repeating improvements. Any preference comparison must name the applicable criteria and disclose whether it was blind. Do not claim photorealistic parity or an overall win over Floorplanner from these narrower checks. The original reference selection, scores, failures and decision rule below are preserved as historical context; the active completion gate is all nondeferred functionality plus independent acceptance of these revised visual requirements.
+
+## Original baseline (historical)
+
 Status: references inspected and frozen on 2026-10-15; **no RoomPlan comparison has yet occurred**. The critic read SPEC.md before seeing builder reasoning or product output. This document defines a visual test, not a claim that the prototype passes it.
 
 ## Exact reference set

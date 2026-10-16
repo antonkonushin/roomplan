@@ -1,0 +1,478 @@
+{
+  "at": "2026-10-16T05:53:31.660Z",
+  "scope": "Production JS callbacks, actual Three camera/group math and actual HTTP ZIP. Minimal DOM, no browser/render/picking claims.",
+  "sourceSHA256": {
+    "web/app.js": "3fbf9e6311802dc61253d55b522caf9b2e7482652fa2d974a6de3c354d8781de",
+    "web/editing.js": "d0e10fb6f5e127ec85db5b7ce869517de32cd8f35549f896ddddd6e0ef7497c8",
+    "web/scene.js": "39019e62dc3a84fdf1e61a1b0948cdaae26ae3a87ba77f613260396f7d65acfd",
+    "roomplan/model.py": "cd94dffb31fe2bd0ef176311507711cfb9d6aeee1357a34e1f279260cfda3314"
+  },
+  "results": [
+    {
+      "name": "Reject invalid wall dimension 0=0",
+      "status": "PASS",
+      "evidence": {
+        "index": 0,
+        "value": "0",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Длина: укажите значение от 0.01 до 30 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 0=-1",
+      "status": "PASS",
+      "evidence": {
+        "index": 0,
+        "value": "-1",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Длина: укажите значение от 0.01 до 30 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 0=",
+      "status": "PASS",
+      "evidence": {
+        "index": 0,
+        "value": "",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Длина: укажите значение от 0.01 до 30 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 0=abc",
+      "status": "PASS",
+      "evidence": {
+        "index": 0,
+        "value": "abc",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Длина: укажите значение от 0.01 до 30 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 0=Infinity",
+      "status": "PASS",
+      "evidence": {
+        "index": 0,
+        "value": "Infinity",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Длина: укажите значение от 0.01 до 30 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 0=0.005",
+      "status": "PASS",
+      "evidence": {
+        "index": 0,
+        "value": "0.005",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Длина: укажите значение от 0.01 до 30 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 1=0.05",
+      "status": "PASS",
+      "evidence": {
+        "index": 1,
+        "value": "0.05",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Высота: укажите значение от 0.1 до 10 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 1=12",
+      "status": "PASS",
+      "evidence": {
+        "index": 1,
+        "value": "12",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Высота: укажите значение от 0.1 до 10 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 2=0.005",
+      "status": "PASS",
+      "evidence": {
+        "index": 2,
+        "value": "0.005",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Толщина: укажите значение от 0.01 до 2 м."
+      }
+    },
+    {
+      "name": "Reject invalid wall dimension 2=3",
+      "status": "PASS",
+      "evidence": {
+        "index": 2,
+        "value": "3",
+        "sameWalls": true,
+        "historyDelta": 0,
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            10,
+            0
+          ],
+          "height": 2.8,
+          "thickness": 0.16
+        },
+        "toast": "Толщина: укажите значение от 0.01 до 2 м."
+      }
+    },
+    {
+      "name": "2d all master states actual handlers and ZIP reload",
+      "status": "PASS",
+      "evidence": {
+        "expected": {
+          "architecture": false,
+          "furniture": false,
+          "pointCloud": true,
+          "boxes": true,
+          "research": true,
+          "cameras": true
+        },
+        "rendered": {
+          "architecture": false,
+          "furniture": false,
+          "pointCloud": true,
+          "boxes": true,
+          "research": true,
+          "cameras": true
+        },
+        "mode": "2d"
+      }
+    },
+    {
+      "name": "3d all master states actual handlers and ZIP reload",
+      "status": "PASS",
+      "evidence": {
+        "expected": {
+          "architecture": false,
+          "furniture": false,
+          "pointCloud": true,
+          "boxes": true,
+          "research": true,
+          "cameras": true
+        },
+        "rendered": {
+          "architecture": false,
+          "furniture": false,
+          "pointCloud": true,
+          "boxes": true,
+          "research": true,
+          "cameras": true
+        },
+        "mode": "3d"
+      }
+    },
+    {
+      "name": "2d translated camera restored",
+      "status": "PASS",
+      "evidence": {
+        "before": {
+          "position": [
+            7,
+            25,
+            4.25100000004197
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1.7
+        },
+        "after": {
+          "position": [
+            7,
+            25,
+            4.25100000004197
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1.7
+        }
+      }
+    },
+    {
+      "name": "2d framing after switching away/back",
+      "status": "OBSERVATION",
+      "evidence": {
+        "before": {
+          "position": [
+            7,
+            25,
+            4.25100000004197
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1.7
+        },
+        "after": {
+          "position": [
+            5,
+            25,
+            3.2510000000419703
+          ],
+          "target": [
+            5,
+            0,
+            3.25
+          ],
+          "zoom": 1.7
+        },
+        "reset": true,
+        "note": "setMode intentionally calls fit; retaining per-view framing is a UX limitation, not an explicit acceptance requirement."
+      }
+    },
+    {
+      "name": "3d translated camera restored",
+      "status": "PASS",
+      "evidence": {
+        "before": {
+          "position": [
+            15.84,
+            11.559999999999999,
+            15.809999999999997
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1
+        },
+        "after": {
+          "position": [
+            15.84,
+            11.559999999999999,
+            15.809999999999997
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "name": "3d framing after switching away/back",
+      "status": "OBSERVATION",
+      "evidence": {
+        "before": {
+          "position": [
+            15.84,
+            11.559999999999999,
+            15.809999999999997
+          ],
+          "target": [
+            7,
+            0,
+            4.25
+          ],
+          "zoom": 1
+        },
+        "after": {
+          "position": [
+            13.84,
+            11.559999999999999,
+            14.809999999999997
+          ],
+          "target": [
+            5,
+            0,
+            3.25
+          ],
+          "zoom": 1
+        },
+        "reset": true,
+        "note": "setMode intentionally calls fit; retaining per-view framing is a UX limitation, not an explicit acceptance requirement."
+      }
+    },
+    {
+      "name": "Fresh model loads actual corrected-wall ZIP",
+      "status": "PASS",
+      "evidence": {
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            9,
+            0
+          ],
+          "height": 3.1,
+          "thickness": 0.1398
+        }
+      }
+    },
+    {
+      "name": "Corrected-wall ZIP remains editable",
+      "status": "PASS",
+      "evidence": {
+        "wall": {
+          "id": "w1",
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            9.5,
+            0
+          ],
+          "height": 3.2,
+          "thickness": 0.1398
+        }
+      }
+    },
+    {
+      "name": "Malformed camera is rejected before replacing working project",
+      "status": "FAIL",
+      "evidence": {
+        "apiAccepted": true,
+        "exception": "Cannot read properties of undefined (reading '0')",
+        "workingProjectRetained": false,
+        "currentName": "Malformed camera import"
+      }
+    }
+  ]
+}

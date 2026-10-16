@@ -2,6 +2,8 @@
 
 Contract: SPEC.md, with user clarification relayed by lead: local GPU object inference is explicitly deferred; retain original sources and service adapter. Created before inspecting the runnable product on 2026-10-15. Initial status of every test is **NOT TESTED**; implementation claims and route existence do not pass a scenario. A separate dated report in artifacts/reviews/ records observed results and evidence. No Floorplanner visual comparison is claimed here.
 
+User amendment, 2026-10-16: ordinary Three.js rendering and walkthroughs are sufficient. Ray tracing and photorealism are excluded from prototype acceptance; the future generative module is separate. Apply the dated scope amendment in quality-bar.md and preserve earlier failures as historical evidence.
+
 | ID | Scenario and concrete check | Pass evidence required |
 |---|---|---|
 | F01 | Upload a photographed/scanned plan with a known wall layout. Set a ceiling height and known metric width. Import a different layout and repeat. | Recognized geometry differs with inputs and follows visible wall evidence; metric scale/height observed; source retained; warnings explain limitations. A silently loaded demo fails. |
@@ -16,7 +18,7 @@ Contract: SPEC.md, with user clarification relayed by lead: local GPU object inf
 | F10 | Save a populated project ZIP containing a photo, a video, custom geometry and a research asset. Reopen in a fresh app session. | Downloaded portable archive contains all originals/assets, verified byte hashes; geometry, support links, camera/layer/settings and provenance round-trip. No server-only filesystem dependency. |
 | F11 | Configure at least two meaningfully different camera paths, export walkthrough videos and play both. | Actual downloadable playable video, correct dimensions/duration; visible scene motion follows the chosen path; export is not a static image/renamed file; model edits appear; codec limitations stated. Ordinary CG labeling; future generative seam documented. |
 | F12 | Export the furnished listing plan after moving an object/editing a wall. Open exported artifact independently. | Download opens without app state; current geometry and furniture visible; no UI selection decoration; no clipped or colliding labels; visual class judged by quality-bar.md. |
-| F13 | Produce a furnished dollhouse still and eye-level interior still. | Downloadable actual renders, usable framing and complete scene; judge against frozen references with camera, scale and limitations recorded. Photorealistic intent alone is not a pass. |
+| F13 | Produce a furnished dollhouse still and eye-level interior still using ordinary Three.js. | Downloadable renders of the actual model, usable framing, recognizable furniture, readable surfaces, complete geometry and no clipping; apply revised quality-bar.md criteria. Ray tracing and photorealism are not required. |
 | F14 | Malformed project, missing file, unsupported image and corrupt archive. | User-visible actionable error, JSON API error where applicable, no crash, retained working project, no silent replacement by demo. |
 | F15 | Open /progress, inspect evidence links and reload after an iteration. | Honest current status plus dated history, largest gaps, next actions, and working evidence links; failed rounds retained; no fabricated independent wins. |
 
@@ -28,4 +30,4 @@ For each check record app revision/time, fixture/project, exact UI steps and rel
 
 ## Completion gate
 
-All mandatory scenarios need direct evidence. F09's local GPU execution is explicitly deferred by the user; source retention, honest unavailable state and the adapter remain required. Visual wins must independently satisfy quality-bar.md; functional success cannot compensate for a failed interior or listing rendering. Publish partial status while any non-deferred mandatory scenario, required visual class or independent comparison remains unresolved.
+All mandatory scenarios need direct evidence. F09's local GPU execution is explicitly deferred by the user; source retention, honest unavailable state and the adapter remain required. Ordinary-CG views/video and attractive listing exports must independently satisfy the active user-scope amendment in quality-bar.md. Photorealism and ray-tracing failures do not block this prototype. Publish partial status while a nondeferred mandatory scenario or applicable visual requirement remains unresolved.
